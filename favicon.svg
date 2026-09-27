@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Lotus Petal Center -->
+  <path d="M50 15 C45 35 44 60 50 82 C56 60 55 35 50 15 Z" fill="#C4A882"/>
+  <!-- Left Inner Petal -->
+  <path d="M46 32 C36 45 34 65 47 78 C41 68 40 48 46 32 Z" fill="#BFA175"/>
+  <!-- Right Inner Petal -->
+  <path d="M54 32 C64 45 66 65 53 78 C59 68 60 48 54 32 Z" fill="#BFA175"/>
+  <!-- Left Outer Petal -->
+  <path d="M42 45 C28 54 20 70 38 82 C28 72 30 58 42 45 Z" fill="#A8885F"/>
+  <!-- Right Outer Petal -->
+  <path d="M58 45 C72 54 80 70 62 82 C72 72 70 58 58 45 Z" fill="#A8885F"/>
+  <!-- Base Calyx Arc -->
+  <path d="M35 83 Q50 87 65 83 Q50 85 35 83 Z" fill="#C4A882"/>
+</svg>
