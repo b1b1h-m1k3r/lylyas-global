@@ -1,0 +1,925 @@
+export const translations = {
+  en: {
+    nav: {
+      home: "Home",
+      about: "About",
+      services: "Services",
+      projects: "Projects",
+      insights: "Insights",
+      contact: "Contact",
+      contactUs: "Contact Us",
+      searchTitle: "Search (Cmd+K)",
+    },
+    hero: {
+      badge: "LYLYAS GLOBAL LLC",
+      headline: "Global Solutions for Modern Businesses and Individuals",
+      subtext: "Lylyas Global LLC creates practical solutions across business consulting, digital services, e-commerce, digital marketing, and professional services.",
+      exploreBtn: "Explore Our Services",
+      contactBtn: "Contact Us",
+      verticalRibbon: "BUSINESS / DIGITAL / E-COMMERCE / PROFESSIONAL SERVICES",
+    },
+    whoWeAre: {
+      eyebrow: "WHO WE ARE",
+      title: "A Global Multi-Service Company",
+      desc: "Lylyas Global LLC is a US-registered multi-service company creating practical solutions for modern businesses, entrepreneurs, and individuals. We combine business consulting, digital services, e-commerce, digital marketing, and professional support to help clients grow and operate effectively.",
+      learnMore: "Learn More About Us",
+      badgeUS: "UNITED STATES ENTITY",
+      badgeLocation: "WYOMING, USA",
+      pillars: {
+        global: {
+          title: "Global Perspective",
+          desc: "International mindset, local understanding.",
+        },
+        professional: {
+          title: "Professional",
+          desc: "Reliable, transparent, results-driven.",
+        },
+        client: {
+          title: "Client Focused",
+          desc: "Your goals, our priority.",
+        },
+      },
+    },
+    whatWeDo: {
+      eyebrow: "OUR SERVICES",
+      title: "What We Do",
+      subtitle: "We offer a flexible range of services designed to support businesses, entrepreneurs, and individuals.",
+      viewAll: "View All Services",
+      learnMore: "Learn More",
+      business: {
+        title: "Business Solutions",
+        desc: "Business consulting, strategy support, and practical solutions for growth and success.",
+      },
+      digital: {
+        title: "Digital Services",
+        desc: "Digital solutions, online presence, digital marketing, and professional digital support.",
+      },
+      ecommerce: {
+        title: "E-commerce",
+        desc: "E-commerce support, online store solutions, and digital commerce activities.",
+      },
+      professional: {
+        title: "Professional Services",
+        desc: "Corporate operations advisory, project management, compliance, and international business support.",
+      },
+    },
+    values: {
+      eyebrow: "WHY LYLYAS GLOBAL",
+      title: "Our Values",
+      subtitle: "Our values guide our decisions, shape our relationships, and define how we work with our clients and partners.",
+      principles: "Guiding Principles",
+      integrity: {
+        title: "Integrity",
+        desc: "We value transparency, responsibility, and professional conduct.",
+      },
+      innovation: {
+        title: "Innovation",
+        desc: "We remain open to new ideas, technologies, and opportunities.",
+      },
+      professionalism: {
+        title: "Professionalism",
+        desc: "We aim to maintain high standards in our communication and work.",
+      },
+      globalPerspective: {
+        title: "Global Perspective",
+        desc: "We think beyond borders and embrace international opportunities.",
+      },
+    },
+    approach: {
+      eyebrow: "OUR APPROACH",
+      title: "Practical. Flexible. Global.",
+      desc: "We believe that effective solutions should be practical, adaptable, and designed around real needs. Our approach combines business thinking, digital capabilities, creativity, and professional support to create solutions for an increasingly connected world.",
+      btn: "Discover Our Approach",
+    },
+    cta: {
+      title: "Let's Work Together",
+      desc: "Whether you are looking for business support, digital solutions, e-commerce services, or professional services, we are open to new opportunities and collaborations.",
+      btn: "Contact Lylyas Global",
+    },
+    insightsSection: {
+      eyebrow: "BLOG & RESOURCES",
+      title: "Latest Insights",
+      viewAll: "View All Insights",
+      readArticle: "Read Article",
+      purposeBadge: "OUR PURPOSE",
+      visionTitle: "A Global Vision for a Better Tomorrow",
+      visionDesc: "Together, we can build stronger businesses, create new opportunities and make a positive impact in a connected world.",
+      exploreBtn: "Explore Our Services",
+    },
+    contactPage: {
+      eyebrow: "GET IN TOUCH",
+      title: "Contact Lylyas Global",
+      subtitle: "We welcome business inquiries, strategic partnerships, and professional service requests from around the globe.",
+      directChannels: "DIRECT CHANNELS",
+      letsConnect: "Let's Connect",
+      connectDesc: "Whether you are planning an international commercial venture, scaling a digital store, or seeking institutional advisory, our team is at your disposal.",
+      officialEmail: "Official Business Email",
+      emailNote: "All messages submitted through this portal or sent directly to our business address are monitored daily.",
+      jurisdictionTitle: "Jurisdiction & Entity",
+      jurisdictionDesc: "Lylyas Global LLC is formally registered and compliant in Wyoming, United States, operating internationally.",
+      confidentialityTitle: "Confidentiality Assured",
+      confidentialityDesc: "All communications, business proposals, and disclosures are treated under strict commercial confidentiality standards.",
+      sendMessage: "Send a Message",
+      formDesc: "Please provide details regarding your inquiry and reason for contact.",
+      fullName: "Full Name",
+      company: "Company / Organization",
+      email: "Email Address",
+      country: "Country / Territory",
+      reason: "Reason for Contact",
+      subject: "Subject",
+      message: "Message",
+      messagePlaceholder: "Describe your project, objectives, or questions in detail...",
+      sendBtn: "Send Message",
+      sendingBtn: "Processing Inquiry...",
+      secureNote: "Inquiries are transmitted securely to",
+      successTitle: "Inquiry Received",
+      successMsg: "Thank you, {name}. Your message regarding {reason} has been logged. Our executive team will review your inquiry and follow up shortly at {email}.",
+      anotherBtn: "Submit Another Inquiry",
+      reasons: {
+        business: "Business Services (Strategy, Consulting, Expansion)",
+        digital: "Digital Services (Web Architecture, Marketing, Presence)",
+        ecommerce: "E-commerce (Storefronts, Operations, Scaling)",
+        professional: "Professional Services (Governance, Vendor & Operations Advisory)",
+        partnership: "Partnership & Distribution",
+        collaboration: "Commercial Collaboration",
+        general: "General Corporate Inquiry",
+      },
+    },
+    footer: {
+      tagline: "Global solutions for modern businesses and individuals. US-registered multi-service enterprise delivering strategic clarity, digital capabilities, and international operational support.",
+      jurisdiction: "WYOMING, UNITED STATES",
+      navigationTitle: "Navigation",
+      directTitle: "Direct Inquiries",
+      inquiriesDesc: "We welcome strategic partnerships, corporate consultations, and global business engagements.",
+      rights: "All rights reserved.",
+      portal: "Portal",
+      privacy: "Privacy Policy",
+      terms: "Terms & Conditions",
+      cookies: "Cookie Policy",
+      disclaimer: "Disclaimer",
+    },
+    search: {
+      placeholder: "Search services, insights, projects...",
+      hint: "Type keywords to search across corporate services, articles, and case studies.",
+      noResults: "No results found for",
+      servicesTitle: "Services",
+      insightsTitle: "Insights",
+      projectsTitle: "Projects",
+      escClose: "Press ESC to close",
+    },
+    aboutPage: {
+      eyebrow: "WHO WE ARE",
+      title: "About Lylyas Global",
+      subtitle: "A US-registered multi-service enterprise dedicated to creating practical corporate strategies, digital platforms, and commercial solutions for a connected world.",
+      profileEyebrow: "OUR CORPORATE PROFILE",
+      profileTitle: "Building Resilient Commercial Infrastructure Across Borders",
+      p1: "Lylyas Global LLC is a US-registered multi-service company creating practical solutions for modern businesses, entrepreneurs, and individuals. We combine business consulting, digital services, e-commerce, digital marketing, and professional support.",
+      p2: "Our work is centered on helping people and businesses develop, grow, and operate more effectively through practical strategies, digital solutions, and commercially focused services. We are organized under the commercial laws of Wyoming, United States, providing a stable, globally recognized regulatory framework for all our international activities.",
+      p3: "Rather than operating as a narrow advisory practice, Lylyas Global is designed as a modular, flexible solutions engine capable of addressing complex commercial challenges across strategy, digital architecture, store management, and ongoing corporate governance.",
+      tagUS: "US Entity: Wyoming, LLC",
+      tagGlobal: "Global Operations",
+      governanceTag: "GOVERNANCE & TRUST",
+      governanceTitle: "Designed for International Commercial Scale",
+      missionEyebrow: "OUR MISSION",
+      missionTitle: "Empowering Growth Through Practical Solutions",
+      missionDesc: "Our mission is to provide practical, flexible, and professional solutions that help businesses and individuals develop, grow, and operate more effectively in a modern and connected world.",
+      visionEyebrow: "OUR VISION",
+      visionTitle: "A Unified Global Business Platform",
+      visionDesc: "Our vision is to build a flexible global company that brings together business, digital services, commerce, and professional support through practical and innovative solutions.",
+      valuesEyebrow: "ETHICAL FOUNDATION",
+      valuesTitle: "Our Core Values",
+      valuesDesc: "These five principles guide our daily decisions, client advisory, and partner collaborations worldwide.",
+      valuesList: [
+        { title: "Integrity", desc: "We value transparency, responsibility, and ethical professional conduct in every engagement." },
+        { title: "Practicality", desc: "We focus on real-world utility and commercially sound solutions rather than theoretical jargon." },
+        { title: "Innovation", desc: "We remain open to emerging technologies, digital systems, and evolving global market opportunities." },
+        { title: "Professionalism", desc: "We hold ourselves to rigorous standards in communication, timing, delivery, and confidentiality." },
+        { title: "Global Perspective", desc: "We think beyond geographic constraints, facilitating cross-border commerce and international readiness." }
+      ],
+      partnerTitle: "Partner With Lylyas Global",
+      partnerDesc: "Discover how our multi-service structure can support your international business objectives and digital operations.",
+      exploreBtn: "Explore Our Services",
+      contactBtn: "Contact Us"
+    },
+    servicesPage: {
+      eyebrow: "COMPREHENSIVE CAPABILITIES",
+      title: "Our Services",
+      subtitle: "Lylyas Global provides a flexible range of services designed to support businesses, entrepreneurs, and international enterprises across critical growth stages.",
+      pillarPrefix: "Pillar 0",
+      commitmentLabel: "Our Commitment:",
+      commitmentDesc: "Every solution in {title} is designed with a practical commercial focus, minimal friction, and clear measurable deliverables.",
+      inquireBtn: "Inquire About {title}",
+      specializedTitle: "Specialized Offerings",
+      tailoredEyebrow: "TAILORED ENGAGEMENTS",
+      tailoredTitle: "Need a Multi-Service Custom Solution?",
+      tailoredDesc: "Our modular structure allows us to blend business consulting, digital architecture, store operations, and professional advisory into a bespoke package suited to your commercial objectives.",
+      consultationBtn: "Request a Consultation",
+      pillars: {
+        "business-solutions": {
+          title: "Business Solutions",
+          subtitle: "Strategic support, operational clarity, and commercial solutions for growing enterprises.",
+          items: [
+            { name: "Business Consulting", desc: "In-depth operational assessments, revenue models, and practical advisory for founders and growing companies." },
+            { name: "Business Strategy Support", desc: "Actionable strategic roadmaps tailored to navigate market transitions and competitive environments." },
+            { name: "Entrepreneur Support", desc: "End-to-end guidance for early-stage founders: entity structuring, market validation, and go-to-market execution." },
+            { name: "Business Development", desc: "Partnership facilitation, distribution expansion, and commercial deal structuring across global markets." },
+            { name: "Operational Optimization", desc: "Eliminating inefficiencies through streamlined workflows, standard operating procedures, and automated tooling." }
+          ]
+        },
+        "digital-services": {
+          title: "Digital Services",
+          subtitle: "Modern online presence, customer acquisition pipelines, and digital architecture.",
+          items: [
+            { name: "Digital Solutions & Architecture", desc: "Modern, high-performance web applications and digital infrastructure built for speed, security, and scalability." },
+            { name: "Digital Marketing & Performance", desc: "Data-driven multi-channel digital campaigns designed to reach targeted B2B and B2C audiences internationally." },
+            { name: "Online Presence & Authority Support", desc: "Comprehensive digital reputation management, corporate landing pages, and search visibility optimization." },
+            { name: "Digital Content Support", desc: "Structured brand storytelling, thought-leadership articles, and technical digital collateral for modern buyers." },
+            { name: "Professional Digital Services", desc: "Dedicated technical advisory, systems integration, and ongoing digital asset management." }
+          ]
+        },
+        "e-commerce": {
+          title: "E-commerce",
+          subtitle: "Comprehensive solutions for digital commerce, multi-channel selling, and global brand scaling.",
+          items: [
+            { name: "E-commerce Support & Infrastructure", desc: "Complete setup and technical management of high-converting storefronts across Shopify, WooCommerce, and custom headless stacks." },
+            { name: "Online Store Solutions", desc: "Custom UI/UX storefront design, payment gateway integration, currency localization, and frictionless checkout flows." },
+            { name: "E-commerce Management", desc: "Full-cycle management including catalog curation, order fulfillment oversight, and customer experience workflows." },
+            { name: "Digital Commerce Strategy", desc: "Retention mechanics, email automation, average order value optimization, and analytics tracking." },
+            { name: "Product & Online Business Support", desc: "Product sourcing advisory, supplier alignment, inventory velocity planning, and multichannel listing distribution." }
+          ]
+        },
+        "professional-services": {
+          title: "Professional Services",
+          subtitle: "High-standard corporate governance, project administration, and international operational facilitation.",
+          items: [
+            { name: "Corporate Operations Advisory", desc: "Institutional guidance on corporate administration, cross-functional project alignment, and executive decision frameworks." },
+            { name: "Project & Vendor Management", desc: "Independent oversight of critical company initiatives, vendor contract delivery, and technical milestone verification." },
+            { name: "Compliance & Governance Support", desc: "Support in maintaining organized records, policy documentation, and adherence to international commercial standards." },
+            { name: "Executive & Administrative Support", desc: "Discreet, high-touch organizational coordination for founders, executive directors, and overseas board members." },
+            { name: "International Business Facilitation", desc: "Navigating cross-border commercial relationships, US entity operational liaison, and bilateral business development." }
+          ]
+        }
+      }
+    },
+    projectsPage: {
+      eyebrow: "CASE STUDIES & ACTIVITIES",
+      title: "Selected Projects",
+      subtitle: "A selection of corporate engagements, digital commerce deployments, and cross-border strategic initiatives delivered with precision.",
+      categories: {
+        all: "All",
+        business: "Business Solutions",
+        digital: "Digital Services",
+        ecommerce: "E-commerce",
+        professional: "Professional Services"
+      },
+      clientFocus: "Client Focus",
+      scope: "Scope & Services",
+      keyOutcome: "Key Outcome",
+      noProjects: "No projects found in this category.",
+      ctaTitle: "Have an Initiative to Execute?",
+      ctaDesc: "We are open to new business activities, corporate collaborations, and digital scaling projects.",
+      ctaBtn: "Discuss Your Project"
+    },
+    insightsPage: {
+      eyebrow: "EDITORIAL & ANALYSIS",
+      title: "Insights & Perspectives",
+      subtitle: "Practical briefings on international business, modern digital architecture, digital commerce strategy, and cross-border operational governance.",
+      searchPlaceholder: "Search insights by topic or keyword...",
+      categories: {
+        all: "ALL",
+        business: "BUSINESS",
+        digital: "DIGITAL",
+        ecommerce: "E-COMMERCE",
+        professional: "PROFESSIONAL"
+      },
+      readArticle: "Read Article",
+      noInsights: "No insights found matching your criteria. Try adjusting your search query or category filter.",
+      relatedReading: "Related Reading",
+      share: "Share",
+      copied: "Article link copied to clipboard!"
+    },
+    legal: {
+      eyebrow: "LEGAL & COMPLIANCE",
+      lastUpdated: "LAST UPDATED: SEPTEMBER 2026",
+      entityName: "Lylyas Global LLC",
+      wyomingLocation: "Wyoming, United States",
+      officialEmail: "Email: contact@lylyasglobal.com"
+    }
+  },
+
+  fr: {
+    nav: {
+      home: "Accueil",
+      about: "À Propos",
+      services: "Services",
+      projects: "Projets",
+      insights: "Perspectives",
+      contact: "Contact",
+      contactUs: "Nous Contacter",
+      searchTitle: "Recherche (Cmd+K)",
+    },
+    hero: {
+      badge: "LYLYAS GLOBAL LLC",
+      headline: "Des Solutions Mondiales pour Entreprises et Particuliers",
+      subtext: "Lylyas Global LLC conçoit des solutions concrètes en conseil d'affaires, services numériques, e-commerce, marketing digital et services professionnels.",
+      exploreBtn: "Découvrir Nos Services",
+      contactBtn: "Contactez-nous",
+      verticalRibbon: "AFFAIRES / NUMÉRIQUE / E-COMMERCE / SERVICES PROFESSIONNELS",
+    },
+    whoWeAre: {
+      eyebrow: "QUI SOMMES-NOUS",
+      title: "Une Entreprise Multiservices Internationale",
+      desc: "Lylyas Global LLC est une société multiservices enregistrée aux États-Unis, créant des solutions pragmatiques pour les entreprises modernes, les entrepreneurs et les particuliers. Nous combinons conseil en gestion, services numériques, e-commerce, marketing digital et accompagnement professionnel.",
+      learnMore: "En Savoir Plus Sur Nous",
+      badgeUS: "ENTITÉ ÉTATS-UNIS",
+      badgeLocation: "WYOMING, USA",
+      pillars: {
+        global: {
+          title: "Perspective Mondiale",
+          desc: "Vision internationale, compréhension locale.",
+        },
+        professional: {
+          title: "Professionnalisme",
+          desc: "Fiable, transparent et orienté résultats.",
+        },
+        client: {
+          title: "Orientation Client",
+          desc: "Vos objectifs, notre priorité absolue.",
+        },
+      },
+    },
+    whatWeDo: {
+      eyebrow: "NOS SERVICES",
+      title: "Ce Que Nous Faisons",
+      subtitle: "Nous proposons une gamme flexible de prestations conçues pour accompagner les entreprises, entrepreneurs et professionnels.",
+      viewAll: "Voir Tous Les Services",
+      learnMore: "En Savoir Plus",
+      business: {
+        title: "Solutions d'Affaires",
+        desc: "Conseil d'affaires, soutien stratégique et solutions concrètes pour la croissance et le succès commercial.",
+      },
+      digital: {
+        title: "Services Numériques",
+        desc: "Solutions digitales, présence en ligne, marketing digital et support technologique professionnel.",
+      },
+      ecommerce: {
+        title: "Commerce Électronique",
+        desc: "Accompagnement e-commerce, création de boutiques en ligne et optimisation des ventes digitales.",
+      },
+      professional: {
+        title: "Services Professionnels",
+        desc: "Conseil en opérations, gestion de projets, conformité et facilitation des affaires internationales.",
+      },
+    },
+    values: {
+      eyebrow: "POURQUOI LYLYAS GLOBAL",
+      title: "Nos Valeurs",
+      subtitle: "Nos valeurs guident nos décisions, façonnent nos relations et définissent notre engagement avec nos partenaires.",
+      principles: "Principes Directeurs",
+      integrity: {
+        title: "Intégrité",
+        desc: "Nous valorisons la transparence, la responsabilité et la déontologie professionnelle.",
+      },
+      innovation: {
+        title: "Innovation",
+        desc: "Nous demeurons réceptifs aux nouvelles idées, technologies et opportunités d'affaires.",
+      },
+      professionalism: {
+        title: "Professionnalisme",
+        desc: "Nous appliquons des standards stricts dans nos communications et nos prestations.",
+      },
+      globalPerspective: {
+        title: "Perspective Globale",
+        desc: "Nous pensons au-delà des frontières pour concrétiser des opportunités internationales.",
+      },
+    },
+    approach: {
+      eyebrow: "NOTRE APPROCHE",
+      title: "Pragmatique. Flexible. Mondial.",
+      desc: "Nous sommes convaincus que les solutions pérennes doivent être pratiques, adaptables et pensées pour répondre à des besoins réels. Notre méthodologie allie stratégie d'affaires, capacités numériques et rigueur d'exécution.",
+      btn: "Découvrir Notre Approche",
+    },
+    cta: {
+      title: "Collaborons Ensemble",
+      desc: "Que vous recherchiez un accompagnement stratégique, des solutions numériques, des services e-commerce ou un appui professionnel, nous accueillons de nouveaux partenariats.",
+      btn: "Contacter Lylyas Global",
+    },
+    insightsSection: {
+      eyebrow: "BLOG & RESSOURCES",
+      title: "Dernières Perspectives",
+      viewAll: "Voir Toutes Les Publications",
+      readArticle: "Lire l'Article",
+      purposeBadge: "NOTRE ENGAGEMENT",
+      visionTitle: "Une Vision Mondiale Pour Un Avenir Meilleur",
+      visionDesc: "Ensemble, bâtissons des entreprises robustes, créons des opportunités nouvelles et générons un impact positif.",
+      exploreBtn: "Explorer Nos Services",
+    },
+    contactPage: {
+      eyebrow: "PRENDRE CONTACT",
+      title: "Contacter Lylyas Global",
+      subtitle: "Nous accueillons les demandes d'affaires, partenariats stratégiques et projets professionnels du monde entier.",
+      directChannels: "CANAUX DIRECTS",
+      letsConnect: "Échangeons Ensemble",
+      connectDesc: "Que vous planifiiez une expansion commerciale internationale, l'optimisation d'un storefront e-commerce ou un conseil opérationnel, notre équipe se tient à votre disposition.",
+      officialEmail: "Email Officiel d'Entreprise",
+      emailNote: "Toutes les demandes adressées via ce formulaire ou envoyées directement à notre adresse sont traitées quotidiennement.",
+      jurisdictionTitle: "Juridiction & Entité",
+      jurisdictionDesc: "Lylyas Global LLC est formellement enregistrée et régie par les lois du Wyoming (États-Unis), avec une portée internationale.",
+      confidentialityTitle: "Confidentialité Garantie",
+      confidentialityDesc: "Toutes les correspondances et propositions commerciales font l'objet d'une stricte confidentialité professionnelle.",
+      sendMessage: "Envoyer un Message",
+      formDesc: "Veuillez renseigner les détails relatifs à votre requête et la nature de votre projet.",
+      fullName: "Nom Complet",
+      company: "Entreprise / Organisation",
+      email: "Adresse Email",
+      country: "Pays / Territoire",
+      reason: "Motif du Contact",
+      subject: "Objet",
+      message: "Message",
+      messagePlaceholder: "Décrivez votre projet, vos objectifs ou vos questions en détail...",
+      sendBtn: "Envoyer le Message",
+      sendingBtn: "Traitement en cours...",
+      secureNote: "Les demandes sont transmises en toute sécurité à",
+      successTitle: "Demande Bien Reçue",
+      successMsg: "Merci, {name}. Votre message concernant {reason} a été enregistré. Notre direction examinera votre demande et reviendra vers vous à {email}.",
+      anotherBtn: "Envoyer Une Autre Demande",
+      reasons: {
+        business: "Services d'Affaires (Stratégie, Conseil, Expansion)",
+        digital: "Services Numériques (Architecture Web, Marketing, Présence)",
+        ecommerce: "Commerce Électronique (Boutiques, Opérations, Croissance)",
+        professional: "Services Professionnels (Gouvernance, Gestion de Projet & Opérations)",
+        partnership: "Partenariat & Distribution",
+        collaboration: "Collaboration Commerciale",
+        general: "Demande Générale d'Entreprise",
+      },
+    },
+    footer: {
+      tagline: "Solutions mondiales pour entreprises et particuliers. Entité multiservices enregistrée aux États-Unis apportant clarté stratégique, savoir-faire digital et support opérationnel international.",
+      jurisdiction: "WYOMING, ÉTATS-UNIS",
+      navigationTitle: "Navigation",
+      directTitle: "Demandes Directes",
+      inquiriesDesc: "Nous sommes ouverts aux partenariats stratégiques, consultations institutionnelles et collaborations d'affaires.",
+      rights: "Tous droits réservés.",
+      portal: "Portail",
+      privacy: "Politique de Confidentialité",
+      terms: "Conditions Générales",
+      cookies: "Politique de Cookies",
+      disclaimer: "Avertissement Légal",
+    },
+    search: {
+      placeholder: "Rechercher des services, articles, projets...",
+      hint: "Saisissez des mots-clés pour rechercher parmi nos services, publications et études de cas.",
+      noResults: "Aucun résultat trouvé pour",
+      servicesTitle: "Services",
+      insightsTitle: "Perspectives",
+      projectsTitle: "Projets",
+      escClose: "Appuyez sur Échap pour fermer",
+    },
+    aboutPage: {
+      eyebrow: "QUI SOMMES-NOUS",
+      title: "À Propos de Lylyas Global",
+      subtitle: "Une entreprise multiservices enregistrée aux États-Unis, dédiée à la conception de stratégies d'affaires pragmatiques, de plateformes numériques et de solutions commerciales pour un monde connecté.",
+      profileEyebrow: "PROFIL DE L'ENTREPRISE",
+      profileTitle: "Bâtir une Infrastructure Commerciale Résiliente par-delà les Frontières",
+      p1: "Lylyas Global LLC est une société multiservices enregistrée aux États-Unis, créant des solutions concrètes pour les entreprises modernes, les entrepreneurs et les particuliers. Nous combinons conseil d'affaires, services numériques, e-commerce, marketing digital et accompagnement professionnel.",
+      p2: "Notre mission consiste à aider les entreprises et les porteurs de projets à se développer, croître et opérer avec une efficacité optimale grâce à des méthodologies éprouvées et des outils digitaux performants. Enregistrée dans l'État du Wyoming (États-Unis), notre structure offre un cadre juridique stable et réputé à l'international.",
+      p3: "Plus qu'un simple cabinet de conseil, Lylyas Global est conçu comme un moteur de solutions modulable, capable de répondre avec agilité aux défis stratégiques, techniques et opérationnels les plus exigeants.",
+      tagUS: "Entité US : Wyoming, LLC",
+      tagGlobal: "Opérations Internationales",
+      governanceTag: "GOUVERNANCE & CONFIANCE",
+      governanceTitle: "Conçu pour l'Échelle Commerciale Internationale",
+      missionEyebrow: "NOTRE MISSION",
+      missionTitle: "Favoriser la Croissance par des Solutions Pratiques",
+      missionDesc: "Notre mission est d'apporter des solutions concrètes, flexibles et hautement professionnelles qui permettent aux entreprises et aux particuliers de croître et d'opérer avec succès dans un monde interconnecté.",
+      visionEyebrow: "NOTRE VISION",
+      visionTitle: "Une Plateforme Globale Unifiée",
+      visionDesc: "Notre vision est de développer une entreprise internationale flexible unifiant conseil d'affaires, technologies numériques, commerce en ligne et appui opérationnel à travers des approches innovantes.",
+      valuesEyebrow: "FONDEMENTS ÉTHIQUES",
+      valuesTitle: "Nos Valeurs Fondamentales",
+      valuesDesc: "Ces cinq principes directeurs guident l'ensemble de nos décisions, de nos conseils et de nos partenariats à travers le monde.",
+      valuesList: [
+        { title: "Intégrité", desc: "Nous valorisons la transparence, la responsabilité et une déontologie irréprochable dans chaque mission." },
+        { title: "Pragmatisme", desc: "Nous privilégions l'utilité concrète et la viabilité commerciale immédiate aux théories abstraites." },
+        { title: "Innovation", desc: "Nous demeurons toujours à la pointe des technologies émergentes et des opportunités de marché." },
+        { title: "Professionnalisme", desc: "Nous appliquons une rigueur stricte dans nos échanges, nos délais d'exécution et la confidentialité." },
+        { title: "Perspective Globale", desc: "Nous concevons chaque projet à l'échelle internationale pour favoriser l'expansion au-delà des frontières." }
+      ],
+      partnerTitle: "Devenez Partenaire de Lylyas Global",
+      partnerDesc: "Découvrez comment notre structure multiservices peut propulser vos objectifs commerciaux internationaux et consolider vos opérations numériques.",
+      exploreBtn: "Explorer Nos Services",
+      contactBtn: "Contactez-nous"
+    },
+    servicesPage: {
+      eyebrow: "CAPACITÉS GLOBALES",
+      title: "Nos Services",
+      subtitle: "Lylyas Global met à votre disposition un éventail complet et flexible de services conçus pour accompagner entreprises, entrepreneurs et groupes internationaux.",
+      pillarPrefix: "Pilier 0",
+      commitmentLabel: "Notre Engagement :",
+      commitmentDesc: "Chaque prestation en {title} est conçue avec une rigueur commerciale orientée résultats, une exécution fluide et des livrables mesurables.",
+      inquireBtn: "Demande d'Information : {title}",
+      specializedTitle: "Prestations Spécialisées",
+      tailoredEyebrow: "ENGAGEMENTS SUR-MESURE",
+      tailoredTitle: "Besoin d'une Solution Multiservices Personnalisée ?",
+      tailoredDesc: "Notre architecture modulaire nous permet de combiner conseil d'affaires, ingénierie digitale, opérations e-commerce et appui professionnel au sein d'une formule sur-mesure adaptée à vos objectifs.",
+      consultationBtn: "Demander une Consultation",
+      pillars: {
+        "business-solutions": {
+          title: "Solutions d'Affaires",
+          subtitle: "Appui stratégique, clarté opérationnelle et solutions commerciales pour entreprises en expansion.",
+          items: [
+            { name: "Conseil en Gestion & Affaires", desc: "Diagnostics opérationnels complets, modélisation de revenus et conseils pragmatiques pour dirigeants et entreprises en croissance." },
+            { name: "Stratégie d'Entreprise", desc: "Feuilles de route stratégiques et opérationnelles pour anticiper les mutations de marché et surpasser la concurrence." },
+            { name: "Accompagnement des Entrepreneurs", desc: "Guidance intégrale pour fondateurs : structuration d'entités, validation de marché et déploiement commercial." },
+            { name: "Développement Commercial", desc: "Facilitation de partenariats, expansion de réseaux de distribution et négociation d'accords commerciaux internationaux." },
+            { name: "Optimisation Opérationnelle", desc: "Élimination des goulots d'étranglement par la rationalisation des flux de travail, procédures standardisées et automatisation." }
+          ]
+        },
+        "digital-services": {
+          title: "Services Numériques",
+          subtitle: "Présence web contemporaine, leviers d'acquisition client et infrastructure digitale performante.",
+          items: [
+            { name: "Solutions & Architecture Digitales", desc: "Applications web ultra-rapides, sécurisées et évolutives bâties sur les standards technologiques les plus récents." },
+            { name: "Marketing Digital & Performance", desc: "Campagnes multi-canaux axées sur les données pour atteindre des cibles B2B et B2C qualifiées à l'international." },
+            { name: "Présence en Ligne & Notoriété", desc: "Gestion globale de l'e-réputation institutionnelle, pages d'atterrissage optimisées et référencement naturel stratégique." },
+            { name: "Création de Contenu Digital", desc: "Storytelling de marque, articles d'expertise sectorielle et supports digitaux percutants pour décideurs modernes." },
+            { name: "Services Numériques Dédiés", desc: "Conseil technologique sur-mesure, intégration de systèmes applicatifs et maintenance d'actifs numériques." }
+          ]
+        },
+        "e-commerce": {
+          title: "Commerce Électronique",
+          subtitle: "Solutions de pointe pour le commerce en ligne, les ventes multi-devises et l'expansion internationale.",
+          items: [
+            { name: "Infrastructure & Support E-commerce", desc: "Configuration et pilotage technique de boutiques en ligne à fort taux de conversion sur Shopify, WooCommerce ou stacks headless." },
+            { name: "Solutions de Boutiques Digitales", desc: "Design UI/UX haut de gamme, intégration de passerelles de paiement sécurisées, multi-devises et parcours d'achat sans friction." },
+            { name: "Gestion E-commerce Complète", desc: "Gestion des catalogues produits, supervision logistique des commandes et optimisation de l'expérience client." },
+            { name: "Stratégie de Croissance Commerce", desc: "Mécanismes de fidélisation, automatisation emailing, augmentation du panier moyen et analyse fine des cohortes d'achat." },
+            { name: "Accompagnement Produits & Approvisionnement", desc: "Sélection de fournisseurs fiables, planification des stocks et diffusion multi-plateformes." }
+          ]
+        },
+        "professional-services": {
+          title: "Services Professionnels",
+          subtitle: "Excellence de gouvernance d'entreprise, pilotage de projets et facilitation des opérations internationales.",
+          items: [
+            { name: "Conseil en Opérations d'Entreprise", desc: "Accompagnement institutionnel pour la gouvernance d'entreprise, la coordination transversale et les décisions exécutives." },
+            { name: "Gestion de Projets & Prestataires", desc: "Supervision indépendante de projets critiques, audit des livrables de prestataires et contrôle qualité des jalons contractuels." },
+            { name: "Gouvernance & Conformité Réglementaire", desc: "Maintien rigoureux de la documentation légale, des registres d'entreprise et de la conformité aux normes internationales." },
+            { name: "Support Exécutif & Coordination", desc: "Assistance organisationnelle discrète et sur-mesure pour fondateurs, administrateurs et directions générales." },
+            { name: "Facilitation des Affaires Internationales", desc: "Intermédiation commerciale transfrontalière, liaison opérationnelle pour entités américaines et développement bilatéral." }
+          ]
+        }
+      }
+    },
+    projectsPage: {
+      eyebrow: "ÉTUDES DE CAS & RÉALISATIONS",
+      title: "Projets Sélectionnés",
+      subtitle: "Une sélection de réalisations d'entreprise, déploiements e-commerce et initiatives stratégiques transfrontalières menées avec rigueur.",
+      categories: {
+        all: "Tous",
+        business: "Solutions d'Affaires",
+        digital: "Services Numériques",
+        ecommerce: "Commerce Électronique",
+        professional: "Services Professionnels"
+      },
+      clientFocus: "Profil Client",
+      scope: "Périmètre & Prestations",
+      keyOutcome: "Résultat Clé",
+      noProjects: "Aucun projet trouvé dans cette catégorie.",
+      ctaTitle: "Un Projet d'Envergure à Réaliser ?",
+      ctaDesc: "Nous sommes ouverts à de nouveaux partenariats commerciaux, collaborations d'entreprise et projets d'expansion numérique.",
+      ctaBtn: "Discuter de Votre Projet"
+    },
+    insightsPage: {
+      eyebrow: "ÉDITORIAL & ANALYSES",
+      title: "Perspectives & Publications",
+      subtitle: "Analyses pratiques sur les affaires internationales, l'architecture digitale moderne, la stratégie e-commerce et la gouvernance d'entreprise.",
+      searchPlaceholder: "Rechercher des articles par sujet ou mot-clé...",
+      categories: {
+        all: "TOUT",
+        business: "AFFAIRES",
+        digital: "NUMÉRIQUE",
+        ecommerce: "E-COMMERCE",
+        professional: "PROFESSIONNEL"
+      },
+      readArticle: "Lire l'Article",
+      noInsights: "Aucun article ne correspond à votre recherche. Essayez d'autres mots-clés ou un autre filtre.",
+      relatedReading: "Lectures Recommandées",
+      share: "Partager",
+      copied: "Lien de l'article copié dans le presse-papier !"
+    },
+    legal: {
+      eyebrow: "MENTIONS LÉGALES & CONFORMITÉ",
+      lastUpdated: "DERNIÈRE MISE À JOUR : SEPTEMBRE 2026",
+      entityName: "Lylyas Global LLC",
+      wyomingLocation: "Wyoming, États-Unis",
+      officialEmail: "Email : contact@lylyasglobal.com"
+    }
+  },
+
+  ar: {
+    nav: {
+      home: "الرئيسية",
+      about: "من نحن",
+      services: "خدماتنا",
+      projects: "مشاريعنا",
+      insights: "رؤى وأفكار",
+      contact: "اتصل بنا",
+      contactUs: "تواصل معنا",
+      searchTitle: "بحث (Cmd+K)",
+    },
+    hero: {
+      badge: "شركة ليلياس جلوبال ذ.م.م",
+      headline: "حلول عالمية للشركات العصرية والأفراد",
+      subtext: "تقدم شركة ليلياس جلوبال حلولاً عملية متكاملة في استشارات الأعمال، والخدمات الرقمية، والتجارة الإلكترونية، والتسويق الرقمي، والخدمات المهنية.",
+      exploreBtn: "استكشف خدماتنا",
+      contactBtn: "تواصل معنا",
+      verticalRibbon: "أعمال / رقمي / تجارة إلكترونية / خدمات مهنية",
+    },
+    whoWeAre: {
+      eyebrow: "من نحن",
+      title: "شركة خدمات متكاملة بمعايير عالمية",
+      desc: "ليلياس جلوبال ذ.م.م هي شركة متعددة الخدمات مسجلة في الولايات المتحدة الأمريكية، تصنع حلولاً واقعية ومبتكرة للشركات الحديثة ورواد الأعمال والأفراد، جامعة بين استشارات الأعمال، الحلول الرقمية، التجارة الإلكترونية، والدعم المؤسسي المهني.",
+      learnMore: "تعرف على شركتنا",
+      badgeUS: "كيان مسجل بالولايات المتحدة",
+      badgeLocation: "وايومنغ، أمريكا",
+      pillars: {
+        global: {
+          title: "رؤية عالمية",
+          desc: "فكر دولي وفهم محلي دقيق.",
+        },
+        professional: {
+          title: "احترافية موثوقة",
+          desc: "شفافية عالية وتركيز على النتائج.",
+        },
+        client: {
+          title: "العميل أولاً",
+          desc: "أهدافكم ونجاحكم أولويتنا القصوى.",
+        },
+      },
+    },
+    whatWeDo: {
+      eyebrow: "خدماتنا",
+      title: "مجالات اختصاصنا",
+      subtitle: "نقدم باقة مرنة من الحلول المصممة لدعم الشركات ورواد الأعمال في مختلف مراحل النمو والريادة.",
+      viewAll: "عرض كافة الخدمات",
+      learnMore: "المزيد",
+      business: {
+        title: "حلول الأعمال",
+        desc: "استشارات استراتيجية وتطوير مؤسسي وحلول عملية لنمو وتوسع الشركات.",
+      },
+      digital: {
+        title: "الخدمات الرقمية",
+        desc: "حلول رقمية متطورة، إدارة التواجد الرقمي، والتسويق الرقمي عالي الأداء.",
+      },
+      ecommerce: {
+        title: "التجارة الإلكترونية",
+        desc: "بناء المتاجر الإلكترونية، تحسين المبيعات، وإدارة العمليات التجارية العالمية.",
+      },
+      professional: {
+        title: "الخدمات المهنية",
+        desc: "استشارات العمليات المؤسسية، إدارة المشاريع، والامتثال التجاري الدولي.",
+      },
+    },
+    values: {
+      eyebrow: "لماذا ليلياس جلوبال",
+      title: "قيمنا المؤسسية",
+      subtitle: "ترشدنا مبادئنا في كل قرار، وتصوغ علاقاتنا الوطيدة مع شركائنا وعملائنا حول العالم.",
+      principles: "المبادئ التوجيهية",
+      integrity: {
+        title: "النزاهة والأمانة",
+        desc: "نلتزم بالشفافية المطلقة، والمسؤولية الكاملة، وأعلى معايير الأخلاق المهنية.",
+      },
+      innovation: {
+        title: "الابتكار والتجدد",
+        desc: "نواكب أحدث التقنيات ونبتكر أساليب جديدة لصنع فرص تجارية واعدة.",
+      },
+      professionalism: {
+        title: "الاحترافية العالية",
+        desc: "نحرص على دقة التنفيذ والالتزام بأعلى معايير الجودة والتواصل المؤسسي.",
+      },
+      globalPerspective: {
+        title: "آفاق عالمية",
+        desc: "نتجاوز الحدود الجغرافية لنستثمر الفرص الدولية ونسهل التوسع العالمي.",
+      },
+    },
+    approach: {
+      eyebrow: "منهجية عملنا",
+      title: "عملية. مرنة. عالمية.",
+      desc: "نؤمن بأن الحلول الناجحة يجب أن تكون عملية، ومرنة، ومصممة وفق الاحتياجات الفعلية. يجمع نهجنا بين التفكير التجاري الاستراتيجي، والقدرات الرقمية المتطورة، والدعم المؤسسي في عالم مترابط.",
+      btn: "اكتشف منهجيتنا",
+    },
+    cta: {
+      title: "لنعمل معاً لتحقيق أهدافك",
+      desc: "سواء كنت تبحث عن استشارات تجارية، حلول رقمية متقدمة، تطوير تجارتك الإلكترونية، أو دعم مؤسسي مهني، نحن هنا لبناء شراكة ناجحة معك.",
+      btn: "تواصل مع ليلياس جلوبال",
+    },
+    insightsSection: {
+      eyebrow: "المقالات والتحليلات",
+      title: "أحدث الرؤى والتحليلات",
+      viewAll: "عرض كافة المقالات",
+      readArticle: "قراءة المقال",
+      purposeBadge: "رسالتنا",
+      visionTitle: "رؤية عالمية لغدٍ أكثر ازدهاراً",
+      visionDesc: "معاً نصنع مؤسسات أكثر قوة ونبني فرصاً استثنائية في عالم سريع الترابط.",
+      exploreBtn: "استكشف خدماتنا",
+    },
+    contactPage: {
+      eyebrow: "تواصل معنا",
+      title: "اتصل بشركة ليلياس جلوبال",
+      subtitle: "نرحب باستفسارات الأعمال، وفرص الشراكات الاستراتيجية، ومشاريع التعاون الدولي من جميع أنحاء العالم.",
+      directChannels: "قنوات الاتصال المباشر",
+      letsConnect: "دعنا نتواصل",
+      connectDesc: "سواء كنت تخطط لمشروع تجاري دولي، أو توسيع متجر إلكتروني، أو الحصول على استشارة مؤسسية متخصصة، فريقنا في خدمتكم.",
+      officialEmail: "البريد الإلكتروني الرسمي",
+      emailNote: "تتم متابعة جميع المراسلات والاستفسارات الواردة عبر هذا النموذج أو إلى بريدنا الرسمي يومياً وباهتمام بالغ.",
+      jurisdictionTitle: "الكيان القانوني والتسجيل",
+      jurisdictionDesc: "شركة ليلياس جلوبال ذ.م.م مسجلة وممتثلة قانونياً في ولاية وايومنغ بالولايات المتحدة الأمريكية، وتعمل على نطاق دولي.",
+      confidentialityTitle: "سرية تامة وموثوقية",
+      confidentialityDesc: "تخضع جميع المراسلات والمقترحات التجارية لأعلى معايير السرية المهنية المعترف بها دولياً.",
+      sendMessage: "أرسل رسالة",
+      formDesc: "يرجى تزويدنا بتفاصيل استفسارك والمجال المطلوب.",
+      fullName: "الاسم الكامل",
+      company: "الشركة / المؤسسة",
+      email: "البريد الإلكتروني",
+      country: "الدولة / البلد",
+      reason: "سبب التواصل",
+      subject: "الموضوع",
+      message: "تفاصيل الرسالة",
+      messagePlaceholder: "يرجى شرح طبيعة مشروعك، أهدافك، أو استفسارك بالتفصيل...",
+      sendBtn: "إرسال الرسالة",
+      sendingBtn: "جاري الإرسال...",
+      secureNote: "يتم إرسال الاستفسارات بأمان إلى",
+      successTitle: "تم استلام رسالتك بنجاح",
+      successMsg: "شكراً لك، {name}. تم تسجيل رسالتك بخصوص {reason}. سيقوم فريقنا بمراجعة طلبك والتواصل معك قريباً عبر البريد الإلكتروني {email}.",
+      anotherBtn: "إرسال استفسار آخر",
+      reasons: {
+        business: "خدمات الأعمال (الاستراتيجية، الاستشارات، التوسع)",
+        digital: "الخدمات الرقمية (تطوير الويب، التسويق، التواجد الرقمي)",
+        ecommerce: "التجارة الإلكترونية (المتاجر، العمليات، التوسع)",
+        professional: "الخدمات المهنية (الحوكمة، إدارة المشاريع والعمليات)",
+        partnership: "الشراكات والتوزيع",
+        collaboration: "التعاون التجاري",
+        general: "استفسار مؤسسي عام",
+      },
+    },
+    footer: {
+      tagline: "حلول عالمية للشركات العصرية والأفراد. شركة متعددة الخدمات مسجلة بالولايات المتحدة تقدم الرؤية الاستراتيجية والقدرات الرقمية والدعم المؤسسي الدولي.",
+      jurisdiction: "وايومنغ، الولايات المتحدة الأمريكية",
+      navigationTitle: "روابط الموقع",
+      directTitle: "استفسارات مباشرة",
+      inquiriesDesc: "نرحب بكافة الشراكات الاستراتيجية والاستشارات التجارية ومشاريع الأعمال العالمية.",
+      rights: "جميع الحقوق محفوظة.",
+      portal: "بوابة الإدارة",
+      privacy: "سياسة الخصوصية",
+      terms: "الشروط والأحكام",
+      cookies: "سياسة ملفات تعريف الارتباط",
+      disclaimer: "إخلاء المسؤولية",
+    },
+    search: {
+      placeholder: "ابحث في الخدمات والمقالات والمشاريع...",
+      hint: "اكتب كلمات مفتاحية للبحث عبر خدماتنا ومقالاتنا ودراسات الحالة.",
+      noResults: "لم يتم العثور على نتائج لـ",
+      servicesTitle: "الخدمات",
+      insightsTitle: "المقالات والرؤى",
+      projectsTitle: "المشاريع",
+      escClose: "اضغط ESC للإغلاق",
+    },
+    aboutPage: {
+      eyebrow: "من نحن",
+      title: "حول شركة ليلياس جلوبال",
+      subtitle: "شركة خدمات متكاملة مسجلة في الولايات المتحدة الأمريكية، مكرسة لبناء استراتيجيات أعمال عملية، ومنصات رقمية متطورة، وحلول تجارية لعالم مترابط.",
+      profileEyebrow: "الملف المؤسسي للشركة",
+      profileTitle: "بناء بنية تحتية تجارية مرنة ومستدامة عبر الحدود",
+      p1: "ليلياس جلوبال ذ.م.م هي شركة خدمات متكاملة مسجلة في الولايات المتحدة الأمريكية، تصنع حلولاً واقعية ومبتكرة للشركات الحديثة، ورواد الأعمال، والأفراد. نحن نجمع بين استشارات الأعمال، والحلول الرقمية، والتجارة الإلكترونية، والتسويق الرقمي، والدعم المؤسسي المهني.",
+      p2: "يرتكز عملنا على مساعدة المؤسسات والأفراد على النمو والتوسع وإدارة عملياتهم بكفاءة استثنائية من خلال استراتيجيات واقعية وحلول رقمية تجارية مجدية. تأسست الشركة بموجب القوانين التجارية لولاية وايومنغ الأمريكية، مما يوفر بيئة تنظيمية وقانونية مستقرة ومعترفاً بها دولياً لكافة أنشطتنا العالمية.",
+      p3: "بدلاً من الاكتفاء بتقديم استشارات نظرية محدودة، صُممت ليلياس جلوبال كمحرك حلول مرن ونموذجي قادر على معالجة التحديات التجارية المعقدة في مجالات الاستراتيجية، والهندسة الرقمية، وإدارة المتاجر، والحوكمة المؤسسية المستمرة.",
+      tagUS: "كيان أمريكي: وايومنغ، ذ.م.م",
+      tagGlobal: "عمليات وأنشطة دولية",
+      governanceTag: "الحوكمة والموثوقية",
+      governanceTitle: "مصمم للتوسع والنمو التجاري الدولي",
+      missionEyebrow: "رسالتنا المؤسسية",
+      missionTitle: "تمكين النمو من خلال حلول عملية وفعالة",
+      missionDesc: "رسالتنا هي تقديم حلول عملية ومرنة واحترافية تساعد الشركات والأفراد على التطور والازدهار وإدارة أعمالهم بكفاءة عالية في عالم سريع الترابط.",
+      visionEyebrow: "رؤيتنا المستقبلية",
+      visionTitle: "منصة عالمية متكاملة لخدمات الأعمال",
+      visionDesc: "رؤيتنا هي بناء شركة عالمية مرنة ومتميزة تجمع بين استشارات الأعمال، والخدمات الرقمية، والتجارة الدولية، والدعم المؤسسي من خلال حلول ذكية ومبتكرة.",
+      valuesEyebrow: "الركائز الأخلاقية",
+      valuesTitle: "قيمنا الجوهرية",
+      valuesDesc: "ترشد هذه المبادئ الخمسة قراراتنا اليومية، واستشاراتنا لعملائنا، وعلاقاتنا الوثيقة مع شركائنا في مختلف دول العالم.",
+      valuesList: [
+        { title: "النزاهة والأمانة", desc: "نلتزم بالشفافية المطلقة والمسؤولية الكاملة وأعلى معايير الأخلاق المهنية في كافة تعاملاتنا." },
+        { title: "الواقعية والعملية", desc: "نركز على الجدوى الحقيقية والحلول القابلة للتطبيق تجارياً بعيداً عن المصطلحات النظرية المعقدة." },
+        { title: "الابتكار والتجدد", desc: "نواكب أحدث التقنيات الرقمية ونبتكر حلولاً مستمرة لاستثمار الفرص الواعدة في الأسواق العالمية." },
+        { title: "الاحترافية العالية", desc: "نلتزم بأعلى معايير الدقة في التواصل وسرعة التنفيذ والسرية التامة لبيانات ومشاريع عملائنا." },
+        { title: "آفاق ورؤية عالمية", desc: "نفكر برؤية دولية تتجاوز الحدود الجغرافية، مما يمهد الطريق لتجارة عابرة للحدود وتوسع تجاري سلس." }
+      ],
+      partnerTitle: "شارك النجاح مع ليلياس جلوبال",
+      partnerDesc: "اكتشف كيف يمكن لنموذج خدماتنا المتكاملة دعم تطلعاتك التجارية الدولية وتطوير منظومتك الرقمية.",
+      exploreBtn: "استكشف خدماتنا",
+      contactBtn: "تواصل معنا"
+    },
+    servicesPage: {
+      eyebrow: "قدرات وخدمات متكاملة",
+      title: "خدماتنا المتميزة",
+      subtitle: "تقدم شركة ليلياس جلوبال مجموعة مرنة وشاملة من الخدمات المصممة خصيصاً لدعم الشركات ورواد الأعمال والمؤسسات العالمية في مراحل التطور والنمو.",
+      pillarPrefix: "المجال 0",
+      commitmentLabel: "التزامنا المهني:",
+      commitmentDesc: "تم تصميم كل خدمة في مجالات {title} بتركيز تجاري واقعي، وتنفيذ سلس، ونتائج ملموسة وقابلة للقياس بدقة.",
+      inquireBtn: "استفسر عن خدمات {title}",
+      specializedTitle: "خدماتنا التخصصية",
+      tailoredEyebrow: "حلول مصممة خصيصاً",
+      tailoredTitle: "هل تحتاج إلى باقة خدمات متكاملة ومخصصة؟",
+      tailoredDesc: "يتيح لنا نموذج عملنا المرن دمج استشارات الأعمال، والحلول الرقمية، وإدارة التجارة الإلكترونية، والدعم المهني في باقة متكاملة تلبي أهدافك بدقة.",
+      consultationBtn: "طلب استشارة متخصصة",
+      pillars: {
+        "business-solutions": {
+          title: "حلول الأعمال",
+          subtitle: "دعم استراتيجي ووضوح تشغيلي وحلول تجارية للمؤسسات الساعية للنمو والريادة.",
+          items: [
+            { name: "استشارات الأعمال والإدارة", desc: "تقييم تشغيلي شامل، وتطوير نماذج الإيرادات، وتقديم استشارات عملية موجهة لرواد الأعمال والشركات النامية." },
+            { name: "دعم استراتيجيات الشركات", desc: "خطط عمل استراتيجية واضحة ومصممة لمواكبة تحولات السوق واكتساب ميزة تنافسية مستدامة." },
+            { name: "دعم رواد الأعمال والمؤسسين", desc: "إرشاد متكامل لرواد الأعمال في المراحل الأولى: هيكلة الكيانات، التحقق من الجدوى، واستراتيجيات دخول السوق." },
+            { name: "تطوير الأعمال والشراكات", desc: "تسهيل عقد الشراكات الاستراتيجية، وتوسيع شبكات التوزيع، وهيكلة الصفقات التجارية في الأسواق الدولية." },
+            { name: "تحسين العمليات التشغيلية", desc: "القضاء على الهدر وتعزيز الكفاءة عبر تبسيط مسارات العمل وتطبيق الإجراءات القياسية والأتمتة الذكية." }
+          ]
+        },
+        "digital-services": {
+          title: "الخدمات الرقمية",
+          subtitle: "تواجد رقمي عصري، قنوات متطورة لجذب العملاء، وبنية تحتية رقمية فائقة الأداء.",
+          items: [
+            { name: "الحلول والهندسة الرقمية", desc: "تطبيقات ومنصات ويب متقدمة فائقة السرعة والأمان، مبنية وفق أحدث المعايير البرمجية لتلائم النمو والتوسع." },
+            { name: "التسويق الرقمي وإدارة الأداء", desc: "حملات تسويقية رقمية متعددة القنوات ومبنية على البيانات للوصول إلى الجمهور المستهدف محلياً ودولياً." },
+            { name: "إدارة التواجد والمكانة الرقمية", desc: "إدارة شاملة لسمعة العلامة التجارية على الإنترنت، صفحات هبوط عالية التحويل، وتحسين محركات البحث SEO." },
+            { name: "صناعة وتطوير المحتوى الرقمي", desc: "سرد قصصي جذاب للعلامة التجارية، مقالات تخصصية رائدة، ومواد رقمية احترافية تستقطب العملاء العصريين." },
+            { name: "الخدمات الرقمية المتخصصة", desc: "استشارات تقنية مخصصة، ربط وتكامل الأنظمة الرقمية، وإدارة ومتابعة الأصول التقنية للشركات." }
+          ]
+        },
+        "e-commerce": {
+          title: "التجارة الإلكترونية",
+          subtitle: "حلول شاملة للتجارة الرقمية، البيع متعدد العملات، وتوسيع نطاق العلامات التجارية عالمياً.",
+          items: [
+            { name: "البنية التحتية للمتاجر الإلكترونية", desc: "إعداد وإدارة تقنية متكاملة لمتاجر إلكترونية عالية التحويل عبر Shopify و WooCommerce والمنصات الحديثة." },
+            { name: "حلول المتاجر الرقمية المتكاملة", desc: "تصميم واجهات مستخدم متميزة، ربط بوابات الدفع الإلكتروني متعددة العملات، وتجربة تسوق وشراء سلسة." },
+            { name: "إدارة العمليات التجارية للمتاجر", desc: "إدارة شاملة لكتالوجات المنتجات، متابعة سلاسل التوريد وشحن الطلبات، والارتقاء بتجربة العميل." },
+            { name: "استراتيجيات نمو المبيعات الرقمية", desc: "آليات ولاء العملاء، حملات البريد الآلية، تحسين متوسط قيمة الطلب، وتحليل سلوك الشراء." },
+            { name: "دعم المنتجات وسلاسل الإمداد", desc: "استشارات اختيار وتوريد المنتجات، التنسيق مع الموردين، وتوزيع المنتجات عبر المنصات العالمية." }
+          ]
+        },
+        "professional-services": {
+          title: "الخدمات المهنية",
+          subtitle: "حوكمة مؤسسية بمعايير رفيعة، إدارة احترافية للمشاريع، وتيسير العمليات التجارية الدولية.",
+          items: [
+            { name: "استشارات العمليات المؤسسية", desc: "إرشاد متخصص للإدارة المؤسسية، وتنسيق المشاريع بين الأقسام، وبناء أطر اتخاذ القرار التنفيذي." },
+            { name: "إدارة المشاريع والموردين", desc: "إشراف مستقل على المبادرات الاستراتيجية الحيوية، متابعة عقود الموردين، وضمان معايير التسليم." },
+            { name: "دعم الحوكمة والامتثال القانوني", desc: "الحفاظ على تنظيم السجلات المؤسسية والوثائق والامتثال الدقيق للمعايير والأنظمة التجارية الدولية." },
+            { name: "الدعم التنفيذي والإداري الرفيع", desc: "تنسيق تنظيمي رفيع وسري لأصحاب الأعمال والرؤساء التنفيذيين وأعضاء مجالس الإدارة بالخارج." },
+            { name: "تيسير الأعمال التجارية الدولية", desc: "إدارة العلاقات التجارية عبر الحدود، التنسيق التشغيلي للكيانات الأمريكية، وتطوير الأعمال الثنائية." }
+          ]
+        }
+      }
+    },
+    projectsPage: {
+      eyebrow: "دراسات الحالة والأنشطة",
+      title: "مشاريعنا المختارة",
+      subtitle: "نماذج مختارة من مبادرات الأعمال، ومشاريع التجارة الإلكترونية، والاستراتيجيات العابرة للحدود المنفذة بأعلى مستويات الدقة.",
+      categories: {
+        all: "الكل",
+        business: "حلول الأعمال",
+        digital: "الخدمات الرقمية",
+        ecommerce: "التجارة الإلكترونية",
+        professional: "الخدمات المهنية"
+      },
+      clientFocus: "نوع العميل",
+      scope: "نطاق العمل والخدمات",
+      keyOutcome: "النتيجة المحققة",
+      noProjects: "لم يتم العثور على مشاريع في هذا القسم.",
+      ctaTitle: "هل لديك مبادرة تود تنفيذها؟",
+      ctaDesc: "نحن نرحب بمشاريع الأعمال الجديدة والشراكات الاستراتيجية ومبادرات التوسع الرقمي.",
+      ctaBtn: "ناقش مشروعك معنا"
+    },
+    insightsPage: {
+      eyebrow: "مقالات ودراسات تحليلية",
+      title: "رؤى وأفكار استراتيجية",
+      subtitle: "مقالات عملية موجزة حول الأعمال الدولية، والهندسة الرقمية، واستراتيجيات التجارة الإلكترونية، والحوكمة التشغيلية عبر الحدود.",
+      searchPlaceholder: "ابحث في المقالات حسب الموضوع أو الكلمة المفتاحية...",
+      categories: {
+        all: "الكل",
+        business: "أعمال",
+        digital: "رقمي",
+        ecommerce: "تجارة إلكترونية",
+        professional: "خدمات مهنية"
+      },
+      readArticle: "قراءة المقال",
+      noInsights: "لم يتم العثور على مقالات تطابق بحثك. يرجى تجربة كلمات أخرى أو تغيير القسم.",
+      relatedReading: "مقالات ذات صلة",
+      share: "مشاركة",
+      copied: "تم نسخ رابط المقال إلى الحافظة!"
+    },
+    legal: {
+      eyebrow: "الشؤون القانونية والامتثال",
+      lastUpdated: "آخر تحديث: سبتمبر 2026",
+      entityName: "شركة ليلياس جلوبال ذ.م.م",
+      wyomingLocation: "وايومنغ، الولايات المتحدة الأمريكية",
+      officialEmail: "البريد الإلكتروني: contact@lylyasglobal.com"
+    }
+  }
+};
