@@ -2,7 +2,7 @@ export const initialCompanyInfo = {
   name: "LYLYAS GLOBAL LLC",
   shortName: "LYLYAS GLOBAL",
   tagline: "Global Solutions for Modern Businesses and Individuals",
-  description: "Lylyas Global LLC is a US-registered multi-service company creating practical solutions across business consulting, digital services, e-commerce, digital marketing, and professional services.",
+  description: "Lylyas Global LLC is a US-registered multi-service company creating practical solutions across business consulting, digital services, e-commerce, digital marketing, and non-medical personal development and lifestyle coaching.",
   registration: "Registered in Wyoming, United States",
   email: "contact@lylyasglobal.com",
   phone: "+1 (307) 201-9250",
@@ -107,32 +107,36 @@ export const initialServices = [
     ]
   },
   {
-    id: "professional-services",
-    title: "Professional Services",
-    subtitle: "High-standard corporate governance, project administration, and international operational facilitation.",
-    shortDesc: "Corporate operations advisory, project management, compliance, and international business support.",
-    icon: "Briefcase",
+    id: "personal-development",
+    title: "Personal Development & Lifestyle Coaching",
+    subtitle: "Non-medical personal development and lifestyle coaching focused on personal growth, goals, mindset, and lifestyle improvement.",
+    shortDesc: "Non-medical personal development and lifestyle coaching focused on personal growth, goals, mindset, and lifestyle improvement.",
+    icon: "Sparkles",
+    tagline: "More Clarity • More Balance • A Brighter You",
+    badge: "NON-MEDICAL SERVICES",
+    image: "/images/personal-coaching.png",
+    disclaimer: "Our personal development and lifestyle coaching services are non-medical and are not intended to diagnose, treat, or prevent any medical or psychological condition.",
     featured: true,
     items: [
       {
-        name: "Corporate Operations Advisory",
-        description: "Institutional guidance on corporate administration, cross-functional project alignment, and executive decision frameworks."
+        name: "Personal Growth & Goal Architecture",
+        description: "Actionable frameworks for personal growth, daily discipline, milestone tracking, and accountability."
       },
       {
-        name: "Project & Vendor Management",
-        description: "Independent oversight of critical company initiatives, vendor contract delivery, and technical milestone verification."
+        name: "Mindset & Mental Clarity Coaching",
+        description: "Overcoming limiting patterns, fostering empowering perspectives, and strengthening daily mental clarity."
       },
       {
-        name: "Compliance & Governance Support",
-        description: "Support in maintaining organized records, policy documentation, and adherence to international commercial standards."
+        name: "Lifestyle & Habit Improvement",
+        description: "Sustainable habit formation, daily routine architecture, and energy management for lasting personal balance."
       },
       {
-        name: "Executive & Administrative Support",
-        description: "Discreet, high-touch organizational coordination for founders, executive directors, and overseas board members."
+        name: "Work-Life Harmony & Wellbeing",
+        description: "Navigating professional stress, establishing healthy boundaries, and creating holistic balance."
       },
       {
-        name: "International Business Facilitation",
-        description: "Navigating cross-border commercial relationships, US entity operational liaison, and bilateral business development."
+        name: "Purpose & Vision Alignment",
+        description: "Clarifying personal values, navigating life transitions with confidence, and unlocking authentic potential."
       }
     ]
   }

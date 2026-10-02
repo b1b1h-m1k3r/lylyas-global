@@ -13,15 +13,15 @@ export const translations = {
     hero: {
       badge: "LYLYAS GLOBAL LLC",
       headline: "Global Solutions for Modern Businesses and Individuals",
-      subtext: "Lylyas Global LLC creates practical solutions across business consulting, digital services, e-commerce, digital marketing, and professional services.",
+      subtext: "Lylyas Global LLC creates practical solutions across business consulting, digital services, e-commerce, digital marketing, and non-medical personal development and lifestyle coaching.",
       exploreBtn: "Explore Our Services",
       contactBtn: "Contact Us",
-      verticalRibbon: "BUSINESS / DIGITAL / E-COMMERCE / PROFESSIONAL SERVICES",
+      verticalRibbon: "BUSINESS / DIGITAL / E-COMMERCE / PERSONAL DEVELOPMENT & COACHING",
     },
     whoWeAre: {
       eyebrow: "WHO WE ARE",
       title: "A Global Multi-Service Company",
-      desc: "Lylyas Global LLC is a US-registered multi-service company creating practical solutions for modern businesses, entrepreneurs, and individuals. We combine business consulting, digital services, e-commerce, digital marketing, and professional support to help clients grow and operate effectively.",
+      desc: "Lylyas Global LLC is a US-registered multi-service company creating practical solutions for modern businesses, entrepreneurs, and individuals. We combine business consulting, digital services, e-commerce, digital marketing, and non-medical personal development and lifestyle coaching to help clients grow and operate effectively.",
       learnMore: "Learn More About Us",
       badgeUS: "UNITED STATES ENTITY",
       badgeLocation: "WYOMING, USA",
@@ -45,7 +45,7 @@ export const translations = {
       title: "What We Do",
       subtitle: "We offer a flexible range of services designed to support businesses, entrepreneurs, and individuals.",
       viewAll: "View All Services",
-      learnMore: "Learn More",
+      learnMore: "Learn More →",
       business: {
         title: "Business Solutions",
         desc: "Business consulting, strategy support, and practical solutions for growth and success.",
@@ -58,10 +58,11 @@ export const translations = {
         title: "E-commerce",
         desc: "E-commerce support, online store solutions, and digital commerce activities.",
       },
-      professional: {
-        title: "Professional Services",
-        desc: "Corporate operations advisory, project management, compliance, and international business support.",
+      coaching: {
+        title: "Personal Development & Lifestyle Coaching",
+        desc: "Non-medical personal development and lifestyle coaching focused on personal growth, goals, mindset, and lifestyle improvement.",
       },
+      disclaimerNote: "Our personal development and lifestyle coaching services are non-medical and are not intended to diagnose, treat, or prevent any medical or psychological condition.",
     },
     values: {
       eyebrow: "WHY LYLYAS GLOBAL",
@@ -123,6 +124,7 @@ export const translations = {
       formDesc: "Please provide details regarding your inquiry and reason for contact.",
       fullName: "Full Name",
       company: "Company / Organization",
+      optional: "(Optional)",
       email: "Email Address",
       country: "Country / Territory",
       reason: "Reason for Contact",
@@ -139,6 +141,7 @@ export const translations = {
         business: "Business Services (Strategy, Consulting, Expansion)",
         digital: "Digital Services (Web Architecture, Marketing, Presence)",
         ecommerce: "E-commerce (Storefronts, Operations, Scaling)",
+        coaching: "Personal Development & Lifestyle Coaching (Non-Medical)",
         professional: "Professional Services (Governance, Vendor & Operations Advisory)",
         partnership: "Partnership & Distribution",
         collaboration: "Commercial Collaboration",
@@ -173,9 +176,9 @@ export const translations = {
       subtitle: "A US-registered multi-service enterprise dedicated to creating practical corporate strategies, digital platforms, and commercial solutions for a connected world.",
       profileEyebrow: "OUR CORPORATE PROFILE",
       profileTitle: "Building Resilient Commercial Infrastructure Across Borders",
-      p1: "Lylyas Global LLC is a US-registered multi-service company creating practical solutions for modern businesses, entrepreneurs, and individuals. We combine business consulting, digital services, e-commerce, digital marketing, and professional support.",
+      p1: "Lylyas Global LLC is a US-registered multi-service company creating practical solutions for modern businesses, entrepreneurs, and individuals. We combine business consulting, digital services, e-commerce, digital marketing, and non-medical personal development and lifestyle coaching.",
       p2: "Our work is centered on helping people and businesses develop, grow, and operate more effectively through practical strategies, digital solutions, and commercially focused services. We are organized under the commercial laws of Wyoming, United States, providing a stable, globally recognized regulatory framework for all our international activities.",
-      p3: "Rather than operating as a narrow advisory practice, Lylyas Global is designed as a modular, flexible solutions engine capable of addressing complex commercial challenges across strategy, digital architecture, store management, and ongoing corporate governance.",
+      p3: "Rather than operating as a narrow advisory practice, Lylyas Global is designed as a modular, flexible solutions engine capable of addressing complex commercial challenges across strategy, digital architecture, store management, and personal development.",
       tagUS: "US Entity: Wyoming, LLC",
       tagGlobal: "Global Operations",
       governanceTag: "GOVERNANCE & TRUST",
@@ -185,7 +188,7 @@ export const translations = {
       missionDesc: "Our mission is to provide practical, flexible, and professional solutions that help businesses and individuals develop, grow, and operate more effectively in a modern and connected world.",
       visionEyebrow: "OUR VISION",
       visionTitle: "A Unified Global Business Platform",
-      visionDesc: "Our vision is to build a flexible global company that brings together business, digital services, commerce, and professional support through practical and innovative solutions.",
+      visionDesc: "Our vision is to build a flexible global company that brings together business, digital services, commerce, and personal development through practical and innovative solutions.",
       valuesEyebrow: "ETHICAL FOUNDATION",
       valuesTitle: "Our Core Values",
       valuesDesc: "These five principles guide our daily decisions, client advisory, and partner collaborations worldwide.",
@@ -212,7 +215,7 @@ export const translations = {
       specializedTitle: "Specialized Offerings",
       tailoredEyebrow: "TAILORED ENGAGEMENTS",
       tailoredTitle: "Need a Multi-Service Custom Solution?",
-      tailoredDesc: "Our modular structure allows us to blend business consulting, digital architecture, store operations, and professional advisory into a bespoke package suited to your commercial objectives.",
+      tailoredDesc: "Our modular structure allows us to blend business consulting, digital architecture, store operations, and lifestyle coaching into a bespoke package suited to your objectives.",
       consultationBtn: "Request a Consultation",
       pillars: {
         "business-solutions": {
@@ -248,15 +251,19 @@ export const translations = {
             { name: "Product & Online Business Support", desc: "Product sourcing advisory, supplier alignment, inventory velocity planning, and multichannel listing distribution." }
           ]
         },
-        "professional-services": {
-          title: "Professional Services",
-          subtitle: "High-standard corporate governance, project administration, and international operational facilitation.",
+        "personal-development": {
+          title: "Personal Development & Lifestyle Coaching",
+          subtitle: "Non-medical personal development and lifestyle coaching focused on personal growth, goals, mindset, and lifestyle improvement.",
+          tagline: "More Clarity • More Balance • A Brighter You",
+          badge: "NON-MEDICAL SERVICES",
+          subheading: "Mindset • Growth • Balance • Freedom",
+          disclaimer: "Our personal development and lifestyle coaching services are non-medical and are not intended to diagnose, treat, or prevent any medical or psychological condition.",
           items: [
-            { name: "Corporate Operations Advisory", desc: "Institutional guidance on corporate administration, cross-functional project alignment, and executive decision frameworks." },
-            { name: "Project & Vendor Management", desc: "Independent oversight of critical company initiatives, vendor contract delivery, and technical milestone verification." },
-            { name: "Compliance & Governance Support", desc: "Support in maintaining organized records, policy documentation, and adherence to international commercial standards." },
-            { name: "Executive & Administrative Support", desc: "Discreet, high-touch organizational coordination for founders, executive directors, and overseas board members." },
-            { name: "International Business Facilitation", desc: "Navigating cross-border commercial relationships, US entity operational liaison, and bilateral business development." }
+            { name: "Personal Growth & Goal Architecture", desc: "Actionable frameworks for personal growth, daily discipline, milestone tracking, and accountability." },
+            { name: "Mindset & Mental Clarity Coaching", desc: "Overcoming limiting patterns, fostering empowering perspectives, and strengthening daily mental clarity." },
+            { name: "Lifestyle & Habit Improvement", desc: "Sustainable habit formation, daily routine architecture, and energy management for lasting personal balance." },
+            { name: "Work-Life Harmony & Wellbeing", desc: "Navigating professional stress, establishing healthy boundaries, and creating holistic balance." },
+            { name: "Purpose & Vision Alignment", desc: "Clarifying personal values, navigating life transitions with confidence, and unlocking authentic potential." }
           ]
         }
       }
@@ -321,15 +328,15 @@ export const translations = {
     hero: {
       badge: "LYLYAS GLOBAL LLC",
       headline: "Des Solutions Mondiales pour Entreprises et Particuliers",
-      subtext: "Lylyas Global LLC conçoit des solutions concrètes en conseil d'affaires, services numériques, e-commerce, marketing digital et services professionnels.",
+      subtext: "Lylyas Global LLC conçoit des solutions concrètes en conseil d'affaires, services numériques, e-commerce, marketing digital et coaching de vie et développement personnel non médical.",
       exploreBtn: "Découvrir Nos Services",
       contactBtn: "Contactez-nous",
-      verticalRibbon: "AFFAIRES / NUMÉRIQUE / E-COMMERCE / SERVICES PROFESSIONNELS",
+      verticalRibbon: "AFFAIRES / NUMÉRIQUE / E-COMMERCE / DÉVELOPPEMENT PERSONNEL",
     },
     whoWeAre: {
       eyebrow: "QUI SOMMES-NOUS",
       title: "Une Entreprise Multiservices Internationale",
-      desc: "Lylyas Global LLC est une société multiservices enregistrée aux États-Unis, créant des solutions pragmatiques pour les entreprises modernes, les entrepreneurs et les particuliers. Nous combinons conseil en gestion, services numériques, e-commerce, marketing digital et accompagnement professionnel.",
+      desc: "Lylyas Global LLC est une société multiservices enregistrée aux États-Unis, créant des solutions pragmatiques pour les entreprises modernes, les entrepreneurs et les particuliers. Nous combinons conseil en gestion, services numériques, e-commerce, marketing digital et accompagnement en développement personnel et style de vie non médical.",
       learnMore: "En Savoir Plus Sur Nous",
       badgeUS: "ENTITÉ ÉTATS-UNIS",
       badgeLocation: "WYOMING, USA",
@@ -353,7 +360,7 @@ export const translations = {
       title: "Ce Que Nous Faisons",
       subtitle: "Nous proposons une gamme flexible de prestations conçues pour accompagner les entreprises, entrepreneurs et professionnels.",
       viewAll: "Voir Tous Les Services",
-      learnMore: "En Savoir Plus",
+      learnMore: "En Savoir Plus →",
       business: {
         title: "Solutions d'Affaires",
         desc: "Conseil d'affaires, soutien stratégique et solutions concrètes pour la croissance et le succès commercial.",
@@ -366,10 +373,11 @@ export const translations = {
         title: "Commerce Électronique",
         desc: "Accompagnement e-commerce, création de boutiques en ligne et optimisation des ventes digitales.",
       },
-      professional: {
-        title: "Services Professionnels",
-        desc: "Conseil en opérations, gestion de projets, conformité et facilitation des affaires internationales.",
+      coaching: {
+        title: "Développement Personnel & Coaching de Vie",
+        desc: "Développement personnel et coaching de vie non médical axés sur l'épanouissement personnel, les objectifs, l'état d'esprit et l'amélioration du mode de vie.",
       },
+      disclaimerNote: "Nos services de développement personnel et de coaching de vie sont non médicaux et ne visent pas à diagnostiquer, traiter ou prévenir une quelconque condition médicale ou psychologique.",
     },
     values: {
       eyebrow: "POURQUOI LYLYAS GLOBAL",
@@ -431,6 +439,7 @@ export const translations = {
       formDesc: "Veuillez renseigner les détails relatifs à votre requête et la nature de votre projet.",
       fullName: "Nom Complet",
       company: "Entreprise / Organisation",
+      optional: "(Facultatif)",
       email: "Adresse Email",
       country: "Pays / Territoire",
       reason: "Motif du Contact",
@@ -447,6 +456,7 @@ export const translations = {
         business: "Services d'Affaires (Stratégie, Conseil, Expansion)",
         digital: "Services Numériques (Architecture Web, Marketing, Présence)",
         ecommerce: "Commerce Électronique (Boutiques, Opérations, Croissance)",
+        coaching: "Développement Personnel & Coaching de Vie (Non Médical)",
         professional: "Services Professionnels (Gouvernance, Gestion de Projet & Opérations)",
         partnership: "Partenariat & Distribution",
         collaboration: "Collaboration Commerciale",
@@ -481,9 +491,9 @@ export const translations = {
       subtitle: "Une entreprise multiservices enregistrée aux États-Unis, dédiée à la conception de stratégies d'affaires pragmatiques, de plateformes numériques et de solutions commerciales pour un monde connecté.",
       profileEyebrow: "PROFIL DE L'ENTREPRISE",
       profileTitle: "Bâtir une Infrastructure Commerciale Résiliente par-delà les Frontières",
-      p1: "Lylyas Global LLC est une société multiservices enregistrée aux États-Unis, créant des solutions concrètes pour les entreprises modernes, les entrepreneurs et les particuliers. Nous combinons conseil d'affaires, services numériques, e-commerce, marketing digital et accompagnement professionnel.",
+      p1: "Lylyas Global LLC est une société multiservices enregistrée aux États-Unis, créant des solutions concrètes pour les entreprises modernes, les entrepreneurs et les particuliers. Nous combinons conseil d'affaires, services numériques, e-commerce, marketing digital et coaching de vie et développement personnel non médical.",
       p2: "Notre mission consiste à aider les entreprises et les porteurs de projets à se développer, croître et opérer avec une efficacité optimale grâce à des méthodologies éprouvées et des outils digitaux performants. Enregistrée dans l'État du Wyoming (États-Unis), notre structure offre un cadre juridique stable et réputé à l'international.",
-      p3: "Plus qu'un simple cabinet de conseil, Lylyas Global est conçu comme un moteur de solutions modulable, capable de répondre avec agilité aux défis stratégiques, techniques et opérationnels les plus exigeants.",
+      p3: "Plus qu'un simple cabinet de conseil, Lylyas Global est conçu comme un moteur de solutions modulable, capable de répondre avec agilité aux défis stratégiques, techniques, commerciaux et d'épanouissement personnel.",
       tagUS: "Entité US : Wyoming, LLC",
       tagGlobal: "Opérations Internationales",
       governanceTag: "GOUVERNANCE & CONFIANCE",
@@ -493,7 +503,7 @@ export const translations = {
       missionDesc: "Notre mission est d'apporter des solutions concrètes, flexibles et hautement professionnelles qui permettent aux entreprises et aux particuliers de croître et d'opérer avec succès dans un monde interconnecté.",
       visionEyebrow: "NOTRE VISION",
       visionTitle: "Une Plateforme Globale Unifiée",
-      visionDesc: "Notre vision est de développer une entreprise internationale flexible unifiant conseil d'affaires, technologies numériques, commerce en ligne et appui opérationnel à travers des approches innovantes.",
+      visionDesc: "Notre vision est de développer une entreprise internationale flexible unifiant conseil d'affaires, technologies numériques, commerce en ligne et développement personnel à travers des approches innovantes.",
       valuesEyebrow: "FONDEMENTS ÉTHIQUES",
       valuesTitle: "Nos Valeurs Fondamentales",
       valuesDesc: "Ces cinq principes directeurs guident l'ensemble de nos décisions, de nos conseils et de nos partenariats à travers le monde.",
@@ -520,7 +530,7 @@ export const translations = {
       specializedTitle: "Prestations Spécialisées",
       tailoredEyebrow: "ENGAGEMENTS SUR-MESURE",
       tailoredTitle: "Besoin d'une Solution Multiservices Personnalisée ?",
-      tailoredDesc: "Notre architecture modulaire nous permet de combiner conseil d'affaires, ingénierie digitale, opérations e-commerce et appui professionnel au sein d'une formule sur-mesure adaptée à vos objectifs.",
+      tailoredDesc: "Notre architecture modulaire nous permet de combiner conseil d'affaires, ingénierie digitale, opérations e-commerce et coaching de vie au sein d'une formule sur-mesure adaptée à vos objectifs.",
       consultationBtn: "Demander une Consultation",
       pillars: {
         "business-solutions": {
@@ -556,15 +566,19 @@ export const translations = {
             { name: "Accompagnement Produits & Approvisionnement", desc: "Sélection de fournisseurs fiables, planification des stocks et diffusion multi-plateformes." }
           ]
         },
-        "professional-services": {
-          title: "Services Professionnels",
-          subtitle: "Excellence de gouvernance d'entreprise, pilotage de projets et facilitation des opérations internationales.",
+        "personal-development": {
+          title: "Développement Personnel & Coaching de Vie",
+          subtitle: "Développement personnel et coaching de vie non médical axés sur l'épanouissement personnel, les objectifs, l'état d'esprit et l'amélioration du mode de vie.",
+          tagline: "Plus de Clarté • Plus d'Équilibre • Un Vous Épanoui",
+          badge: "SERVICES NON MÉDICAUX",
+          subheading: "État d'esprit • Croissance • Équilibre • Liberté",
+          disclaimer: "Nos services de développement personnel et de coaching de vie sont non médicaux et ne visent pas à diagnostiquer, traiter ou prévenir une quelconque condition médicale ou psychologique.",
           items: [
-            { name: "Conseil en Opérations d'Entreprise", desc: "Accompagnement institutionnel pour la gouvernance d'entreprise, la coordination transversale et les décisions exécutives." },
-            { name: "Gestion de Projets & Prestataires", desc: "Supervision indépendante de projets critiques, audit des livrables de prestataires et contrôle qualité des jalons contractuels." },
-            { name: "Gouvernance & Conformité Réglementaire", desc: "Maintien rigoureux de la documentation légale, des registres d'entreprise et de la conformité aux normes internationales." },
-            { name: "Support Exécutif & Coordination", desc: "Assistance organisationnelle discrète et sur-mesure pour fondateurs, administrateurs et directions générales." },
-            { name: "Facilitation des Affaires Internationales", desc: "Intermédiation commerciale transfrontalière, liaison opérationnelle pour entités américaines et développement bilatéral." }
+            { name: "Croissance Personnelle & Atteinte d'Objectifs", desc: "Cadres pratiques de développement personnel, discipline quotidienne, suivi d'étapes et responsabilisation." },
+            { name: "État d'Esprit & Clarté Mentale", desc: "Dépassement des schémas limitants, perspectives constructives et renforcement de la clarté d'esprit au quotidien." },
+            { name: "Optimisation du Mode de Vie & Habitudes", desc: "Adoption d'habitudes durables, organisation de routines bienfaisantes et gestion saine de l'énergie personnelle." },
+            { name: "Harmonie Vie Pro-Vie Perso & Sérénité", desc: "Gestion constructive du stress, définition de limites saines et équilibre de vie holistique." },
+            { name: "Alignement des Valeurs & Vision Personnelle", desc: "Clarification des valeurs fondamentales, transitions de vie réussies et libération du plein potentiel." }
           ]
         }
       }
@@ -629,15 +643,15 @@ export const translations = {
     hero: {
       badge: "شركة ليلياس جلوبال ذ.م.م",
       headline: "حلول عالمية للشركات العصرية والأفراد",
-      subtext: "تقدم شركة ليلياس جلوبال حلولاً عملية متكاملة في استشارات الأعمال، والخدمات الرقمية، والتجارة الإلكترونية، والتسويق الرقمي، والخدمات المهنية.",
+      subtext: "تقدم شركة ليلياس جلوبال حلولاً عملية متكاملة في استشارات الأعمال، والخدمات الرقمية، والتجارة الإلكترونية، والتسويق الرقمي، والتطوير الشخصي والتدريب على نمط الحياة غير الطبي.",
       exploreBtn: "استكشف خدماتنا",
       contactBtn: "تواصل معنا",
-      verticalRibbon: "أعمال / رقمي / تجارة إلكترونية / خدمات مهنية",
+      verticalRibbon: "أعمال / رقمي / تجارة إلكترونية / تطوير شخصي وتدريب",
     },
     whoWeAre: {
       eyebrow: "من نحن",
       title: "شركة خدمات متكاملة بمعايير عالمية",
-      desc: "ليلياس جلوبال ذ.م.م هي شركة متعددة الخدمات مسجلة في الولايات المتحدة الأمريكية، تصنع حلولاً واقعية ومبتكرة للشركات الحديثة ورواد الأعمال والأفراد، جامعة بين استشارات الأعمال، الحلول الرقمية، التجارة الإلكترونية، والدعم المؤسسي المهني.",
+      desc: "ليلياس جلوبال ذ.م.م هي شركة متعددة الخدمات مسجلة في الولايات المتحدة الأمريكية، تصنع حلولاً واقعية ومبتكرة للشركات الحديثة ورواد الأعمال والأفراد، جامعة بين استشارات الأعمال، الحلول الرقمية، التجارة الإلكترونية، والتطوير الشخصي ونمط الحياة غير الطبي لمساعدة عملائنا على النمو والعمل بفاعلية.",
       learnMore: "تعرف على شركتنا",
       badgeUS: "كيان مسجل بالولايات المتحدة",
       badgeLocation: "وايومنغ، أمريكا",
@@ -661,7 +675,7 @@ export const translations = {
       title: "مجالات اختصاصنا",
       subtitle: "نقدم باقة مرنة من الحلول المصممة لدعم الشركات ورواد الأعمال في مختلف مراحل النمو والريادة.",
       viewAll: "عرض كافة الخدمات",
-      learnMore: "المزيد",
+      learnMore: "المزيد ←",
       business: {
         title: "حلول الأعمال",
         desc: "استشارات استراتيجية وتطوير مؤسسي وحلول عملية لنمو وتوسع الشركات.",
@@ -674,10 +688,11 @@ export const translations = {
         title: "التجارة الإلكترونية",
         desc: "بناء المتاجر الإلكترونية، تحسين المبيعات، وإدارة العمليات التجارية العالمية.",
       },
-      professional: {
-        title: "الخدمات المهنية",
-        desc: "استشارات العمليات المؤسسية، إدارة المشاريع، والامتثال التجاري الدولي.",
+      coaching: {
+        title: "التطوير الشخصي والتدريب على نمط الحياة",
+        desc: "تطوير شخصي وتدريب على نمط الحياة غير طبي يركز على النمو الذاتي، وتحقيق الأهداف، وتطوير التفكير، وتحسين أسلوب الحياة.",
       },
+      disclaimerNote: "خدمات التطوير الشخصي والتدريب على نمط الحياة لدينا غير طبية ولا تهدف إلى تشخيص أو علاج أو الوقاية من أي حالة طبية أو نفسية.",
     },
     values: {
       eyebrow: "لماذا ليلياس جلوبال",
@@ -709,7 +724,7 @@ export const translations = {
     },
     cta: {
       title: "لنعمل معاً لتحقيق أهدافك",
-      desc: "سواء كنت تبحث عن استشارات تجارية، حلول رقمية متقدمة، تطوير تجارتك الإلكترونية، أو دعم مؤسسي مهني، نحن هنا لبناء شراكة ناجحة معك.",
+      desc: "سواء كنت تبحث عن استشارات تجارية، حلول رقمية متقدمة، تطوير تجارتك الإلكترونية، أو تدريب على التطوير الشخصي وأسلوب الحياة (غير طبي)، نحن هنا لبناء شراكة ناجحة معك.",
       btn: "تواصل مع ليلياس جلوبال",
     },
     insightsSection: {
@@ -739,6 +754,7 @@ export const translations = {
       formDesc: "يرجى تزويدنا بتفاصيل استفسارك والمجال المطلوب.",
       fullName: "الاسم الكامل",
       company: "الشركة / المؤسسة",
+      optional: "(اختياري)",
       email: "البريد الإلكتروني",
       country: "الدولة / البلد",
       reason: "سبب التواصل",
@@ -755,6 +771,7 @@ export const translations = {
         business: "خدمات الأعمال (الاستراتيجية، الاستشارات، التوسع)",
         digital: "الخدمات الرقمية (تطوير الويب، التسويق، التواجد الرقمي)",
         ecommerce: "التجارة الإلكترونية (المتاجر، العمليات، التوسع)",
+        coaching: "التطوير الشخصي والتدريب على نمط الحياة (خدمات غير طبية)",
         professional: "الخدمات المهنية (الحوكمة، إدارة المشاريع والعمليات)",
         partnership: "الشراكات والتوزيع",
         collaboration: "التعاون التجاري",
@@ -789,7 +806,7 @@ export const translations = {
       subtitle: "شركة خدمات متكاملة مسجلة في الولايات المتحدة الأمريكية، مكرسة لبناء استراتيجيات أعمال عملية، ومنصات رقمية متطورة، وحلول تجارية لعالم مترابط.",
       profileEyebrow: "الملف المؤسسي للشركة",
       profileTitle: "بناء بنية تحتية تجارية مرنة ومستدامة عبر الحدود",
-      p1: "ليلياس جلوبال ذ.م.م هي شركة خدمات متكاملة مسجلة في الولايات المتحدة الأمريكية، تصنع حلولاً واقعية ومبتكرة للشركات الحديثة، ورواد الأعمال، والأفراد. نحن نجمع بين استشارات الأعمال، والحلول الرقمية، والتجارة الإلكترونية، والتسويق الرقمي، والدعم المؤسسي المهني.",
+      p1: "ليلياس جلوبال ذ.م.م هي شركة خدمات متكاملة مسجلة في الولايات المتحدة الأمريكية، تصنع حلولاً واقعية ومبتكرة للشركات الحديثة، ورواد الأعمال، والأفراد. نحن نجمع بين استشارات الأعمال، والحلول الرقمية، والتجارة الإلكترونية، والتطوير الشخصي والتدريب على أسلوب الحياة (غير الطبي).",
       p2: "يرتكز عملنا على مساعدة المؤسسات والأفراد على النمو والتوسع وإدارة عملياتهم بكفاءة استثنائية من خلال استراتيجيات واقعية وحلول رقمية تجارية مجدية. تأسست الشركة بموجب القوانين التجارية لولاية وايومنغ الأمريكية، مما يوفر بيئة تنظيمية وقانونية مستقرة ومعترفاً بها دولياً لكافة أنشطتنا العالمية.",
       p3: "بدلاً من الاكتفاء بتقديم استشارات نظرية محدودة، صُممت ليلياس جلوبال كمحرك حلول مرن ونموذجي قادر على معالجة التحديات التجارية المعقدة في مجالات الاستراتيجية، والهندسة الرقمية، وإدارة المتاجر، والحوكمة المؤسسية المستمرة.",
       tagUS: "كيان أمريكي: وايومنغ، ذ.م.م",
@@ -864,15 +881,19 @@ export const translations = {
             { name: "دعم المنتجات وسلاسل الإمداد", desc: "استشارات اختيار وتوريد المنتجات، التنسيق مع الموردين، وتوزيع المنتجات عبر المنصات العالمية." }
           ]
         },
-        "professional-services": {
-          title: "الخدمات المهنية",
-          subtitle: "حوكمة مؤسسية بمعايير رفيعة، إدارة احترافية للمشاريع، وتيسير العمليات التجارية الدولية.",
+        "personal-development": {
+          title: "التطوير الشخصي والتدريب على نمط الحياة",
+          subtitle: "تطوير شخصي وتدريب على نمط الحياة غير طبي يركز على النمو الذاتي، وتحقيق الأهداف، وتطوير التفكير، وتحسين أسلوب الحياة.",
+          tagline: "وضوح أكثر • توازن أفضل • نسخة أفضل منك",
+          badge: "خدمات غير طبية",
+          subheading: "العقلية • النمو • التوازن • الحرية",
+          disclaimer: "خدمات التطوير الشخصي والتدريب على نمط الحياة لدينا غير طبية ولا تهدف إلى تشخيص أو علاج أو الوقاية من أي حالة طبية أو نفسية.",
           items: [
-            { name: "استشارات العمليات المؤسسية", desc: "إرشاد متخصص للإدارة المؤسسية، وتنسيق المشاريع بين الأقسام، وبناء أطر اتخاذ القرار التنفيذي." },
-            { name: "إدارة المشاريع والموردين", desc: "إشراف مستقل على المبادرات الاستراتيجية الحيوية، متابعة عقود الموردين، وضمان معايير التسليم." },
-            { name: "دعم الحوكمة والامتثال القانوني", desc: "الحفاظ على تنظيم السجلات المؤسسية والوثائق والامتثال الدقيق للمعايير والأنظمة التجارية الدولية." },
-            { name: "الدعم التنفيذي والإداري الرفيع", desc: "تنسيق تنظيمي رفيع وسري لأصحاب الأعمال والرؤساء التنفيذيين وأعضاء مجالس الإدارة بالخارج." },
-            { name: "تيسير الأعمال التجارية الدولية", desc: "إدارة العلاقات التجارية عبر الحدود، التنسيق التشغيلي للكيانات الأمريكية، وتطوير الأعمال الثنائية." }
+            { name: "النمو الشخصي وتحديد الأهداف", desc: "أطر عملية للنمو الشخصي، وبناء الانضباط اليومي، وتتبع مراحل الإنجاز وتحمل المسؤولية الذاتية." },
+            { name: "تطوير العقلية والوضوح الذهني", desc: "تجاوز الأنماط الفكرية المقيدة، وبناء وجهات نظر إيجابية وممكنة، وتعزيز الصفاء والوضوح الذهني اليومي." },
+            { name: "تحسين العادات ونمط الحياة", desc: "بناء عادات يومية مستدامة، وهندسة الروتين اليومي المتوازن، وإدارة الطاقة الشخصية لتحقيق استقرار طويل الأمد." },
+            { name: "التناغم بين الحياة والعمل والرفاهية", desc: "إدارة ضغوط الحياة المهنية، ووضع حدود صحية متوازنة، وتحقيق انسجام وسلام داخلي شامل." },
+            { name: "مواءمة القيم ورؤية المستقبل", desc: "توضيح القيم والأهداف الشخصية العميقة، والتعامل مع التحولات الحياتية بثقة، وإطلاق الطاقات والقدرات الكامنة." }
           ]
         }
       }

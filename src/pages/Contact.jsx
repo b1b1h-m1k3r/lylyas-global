@@ -273,13 +273,12 @@ export default function Contact() {
                     {/* Company */}
                     <div>
                       <label className="block text-xs font-semibold text-[#1B4332] uppercase tracking-wider mb-2">
-                        {t.contactPage.company} <span className="text-rose-500">*</span>
+                        {t.contactPage.company} <span className="text-[#8A9E93] font-normal">{t.contactPage.optional || '(Optional)'}</span>
                       </label>
                       <input
                         type="text"
                         name="company"
-                        required
-                        placeholder="e.g. Acme Corp LLC"
+                        placeholder="e.g. Acme Corp LLC (or Personal)"
                         value={formData.company}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-xl bg-[#FAF9F6] border border-[#E3ECE5] text-sm text-[#1B4332] focus:outline-none focus:border-[#2D6A4F] transition-colors"
@@ -335,6 +334,7 @@ export default function Contact() {
                       <option value="Business Services">{t.contactPage.reasons.business}</option>
                       <option value="Digital Services">{t.contactPage.reasons.digital}</option>
                       <option value="E-commerce">{t.contactPage.reasons.ecommerce}</option>
+                      <option value="Personal Development Coaching">{t.contactPage.reasons.coaching}</option>
                       <option value="Professional Services">{t.contactPage.reasons.professional}</option>
                       <option value="Partnership">{t.contactPage.reasons.partnership}</option>
                       <option value="Collaboration">{t.contactPage.reasons.collaboration}</option>

@@ -14,6 +14,23 @@ const STORAGE_KEYS = {
   INQUIRIES: 'lylyas_inquiries',
 };
 
+const DATA_VERSION_KEY = 'lylyas_data_version';
+const CURRENT_VERSION = 'v4_lifestyle_coaching';
+
+// Check version and refresh initial services & company info if outdated
+if (typeof window !== 'undefined') {
+  try {
+    const storedVersion = localStorage.getItem(DATA_VERSION_KEY);
+    if (storedVersion !== CURRENT_VERSION) {
+      localStorage.setItem(STORAGE_KEYS.SERVICES, JSON.stringify(initialServices));
+      localStorage.setItem(STORAGE_KEYS.COMPANY, JSON.stringify(initialCompanyInfo));
+      localStorage.setItem(DATA_VERSION_KEY, CURRENT_VERSION);
+    }
+  } catch (e) {
+    // ignore
+  }
+}
+
 // Helper for localStorage with fallback
 const getStorageItem = (key, fallback) => {
   try {

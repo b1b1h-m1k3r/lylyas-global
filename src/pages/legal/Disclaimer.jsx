@@ -29,7 +29,7 @@ export default function Disclaimer() {
           <section className="space-y-3">
             <h2 className="text-xl font-serif font-bold text-[#1B4332]">2. Non-Medical and Non-Clinical Clarification</h2>
             <p className="p-4 rounded-2xl bg-[#FAF9F6] border border-[#E3ECE5] text-xs sm:text-sm text-[#1B4332] font-medium leading-relaxed">
-              Lylyas Global LLC does not offer medical, psychiatric, or licensed clinical healthcare services. None of our professional services, advisory discussions, or published materials are intended to diagnose, treat, prevent, or substitute for professional medical, psychiatric, or healthcare care.
+              Our personal development and lifestyle coaching services are non-medical and are not intended to diagnose, treat, or prevent any medical or psychological condition. Lylyas Global LLC does not offer medical, psychological, psychiatric, or therapeutic treatment. None of our personal development sessions, coaching engagements, advisory discussions, or published materials are intended to diagnose, treat, prevent, or substitute for professional medical, psychological, psychiatric, or healthcare treatment.
             </p>
           </section>
 

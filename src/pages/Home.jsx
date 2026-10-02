@@ -6,6 +6,7 @@ import {
   Monitor,
   ShoppingCart,
   Briefcase,
+  Sparkles,
   Globe,
   Shield,
   Users,
@@ -296,22 +297,22 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Card 4: Professional Services */}
+            {/* Card 4: Personal Development & Lifestyle Coaching */}
             <div className="bg-white border border-[#E3ECE5] rounded-2xl p-7 shadow-2xs hover:shadow-md hover:border-[#2D6A4F] transition-all flex flex-col justify-between group">
               <div>
                 <div className="w-12 h-12 rounded-xl bg-[#EBF4EE] border border-[#D0E0D3] flex items-center justify-center text-[#2D6A4F] mb-6 group-hover:bg-[#2D6A4F] group-hover:text-[#C4A882] transition-colors">
-                  <Briefcase className="w-6 h-6" />
+                  <Sparkles className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-serif font-bold text-[#1B4332] mb-3">
-                  {t.whatWeDo.professional.title}
+                  {t.whatWeDo.coaching.title}
                 </h3>
                 <p className="text-xs sm:text-sm text-[#4D6357] leading-relaxed font-light">
-                  {t.whatWeDo.professional.desc}
+                  {t.whatWeDo.coaching.desc}
                 </p>
               </div>
               <div className="pt-6 mt-4 border-t border-[#E3ECE5]">
                 <Link
-                  to="/services#professional-services"
+                  to="/services#personal-development"
                   className="inline-flex items-center text-xs font-semibold text-[#2D6A4F] group-hover:text-[#1B4332] transition-colors"
                 >
                   <span>{t.whatWeDo.learnMore}</span>
@@ -320,6 +321,66 @@ export default function Home() {
               </div>
             </div>
 
+          </div>
+
+          {/* Lifestyle Coaching Highlight & Disclaimer Banner */}
+          <div className="mt-12 bg-white border border-[#E3ECE5] rounded-3xl p-6 sm:p-8 lg:p-10 shadow-sm relative overflow-hidden">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              
+              {/* Graphic Asset / Visual Presentation */}
+              <div className="lg:col-span-5 flex justify-center">
+                <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#E3ECE5] max-w-md w-full bg-[#0d1f18]">
+                  <img
+                    src="/images/personal-coaching.png"
+                    alt="Personal Development & Lifestyle Coaching - Lylyas Global"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              </div>
+
+              {/* Information & Required Disclaimer Note */}
+              <div className="lg:col-span-7 space-y-4">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-[10px] tracking-[0.25em] font-semibold text-[#2D6A4F] bg-[#EBF4EE] border border-[#D0E0D3] px-3 py-1 rounded-full uppercase">
+                    {t.servicesPage.pillars['personal-development']?.badge || 'NON-MEDICAL SERVICES'}
+                  </span>
+                  <span className="text-xs text-[#8A9E93] font-mono">
+                    {t.servicesPage.pillars['personal-development']?.subheading || 'Mindset • Growth • Balance • Freedom'}
+                  </span>
+                </div>
+
+                <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#1B4332]">
+                  {t.whatWeDo.coaching.title}
+                </h3>
+
+                <p className="text-sm font-serif italic text-[#C4A882] tracking-wide">
+                  "{t.servicesPage.pillars['personal-development']?.tagline || 'More Clarity • More Balance • A Brighter You'}"
+                </p>
+
+                <p className="text-sm text-[#4D6357] leading-relaxed font-light">
+                  {t.whatWeDo.coaching.desc}
+                </p>
+
+                {/* Mandatory Non-Medical Disclaimer Note */}
+                <div className="p-4 rounded-2xl bg-[#FEF3C7]/40 border border-[#FDE68A] text-xs text-[#92400E] leading-relaxed">
+                  <strong className="font-semibold block mb-0.5">
+                    {isRTL ? 'إشعار غير طبي مهم:' : (t.nav.home === 'Accueil' ? 'Note importante (non médicale) :' : 'Important Notice:')}
+                  </strong>
+                  {t.whatWeDo.disclaimerNote}
+                </div>
+
+                <div className="pt-2">
+                  <Link
+                    to="/services#personal-development"
+                    className="inline-flex items-center gap-2 bg-[#2D6A4F] hover:bg-[#22543E] text-white text-xs font-semibold tracking-wider px-6 py-3 rounded-full transition-all group shadow-2xs"
+                  >
+                    <span>{t.whatWeDo.learnMore}</span>
+                    <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1 rtl-flip" />
+                  </Link>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </section>

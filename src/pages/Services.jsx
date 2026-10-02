@@ -4,7 +4,7 @@ import {
   TrendingUp,
   Monitor,
   ShoppingCart,
-  Briefcase,
+  Sparkles,
   ArrowRight,
   CheckCircle2
 } from 'lucide-react';
@@ -16,7 +16,7 @@ export default function Services() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const pillarOrder = ['business-solutions', 'digital-services', 'e-commerce', 'professional-services'];
+  const pillarOrder = ['business-solutions', 'digital-services', 'e-commerce', 'personal-development'];
   const [activeTab, setActiveTab] = useState(pillarOrder[0]);
 
   useEffect(() => {
@@ -40,9 +40,9 @@ export default function Services() {
         return Monitor;
       case 'e-commerce':
         return ShoppingCart;
-      case 'professional-services':
+      case 'personal-development':
       default:
-        return Briefcase;
+        return Sparkles;
     }
   };
 
@@ -116,8 +116,15 @@ export default function Services() {
                   
                   {/* Category Overview */}
                   <div className={`lg:col-span-5 space-y-5 ${isReversed ? 'lg:order-2' : ''}`}>
-                    <div className="w-14 h-14 rounded-2xl bg-[#EBF4EE] border border-[#D0E0D3] flex items-center justify-center text-[#2D6A4F]">
-                      <Icon className="w-7 h-7" />
+                    <div className="flex items-center gap-3">
+                      <div className="w-14 h-14 rounded-2xl bg-[#EBF4EE] border border-[#D0E0D3] flex items-center justify-center text-[#2D6A4F]">
+                        <Icon className="w-7 h-7" />
+                      </div>
+                      {pData.badge && (
+                        <span className="text-[10px] tracking-[0.2em] font-semibold text-[#2D6A4F] bg-[#EBF4EE] border border-[#D0E0D3] px-3 py-1 rounded-full uppercase">
+                          {pData.badge}
+                        </span>
+                      )}
                     </div>
 
                     <div>
@@ -127,16 +134,42 @@ export default function Services() {
                       <h2 className="text-3xl font-serif font-bold text-[#1B4332] mt-1">
                         {pData.title}
                       </h2>
+                      {pData.tagline && (
+                        <p className="text-xs font-serif italic text-[#C4A882] tracking-wide mt-1.5">
+                          "{pData.tagline}"
+                        </p>
+                      )}
                     </div>
 
                     <p className="text-sm sm:text-base text-[#4D6357] font-light leading-relaxed">
                       {pData.subtitle}
                     </p>
 
-                    <div className="p-4 rounded-xl bg-[#FAF9F6] border border-[#E3ECE5] text-xs text-[#4D6357]">
-                      <strong className="text-[#1B4332]">{pageT.commitmentLabel} </strong>
-                      {pageT.commitmentDesc.replace('{title}', pData.title)}
-                    </div>
+                    {/* Disclaimer note for coaching or standard commitment box */}
+                    {pData.disclaimer ? (
+                      <div className="p-4 rounded-2xl bg-[#FEF3C7]/40 border border-[#FDE68A] text-xs text-[#92400E] leading-relaxed">
+                        <strong className="font-semibold block mb-1">
+                          {isRTL ? 'إشعار غير طبي مهم:' : (t.nav.home === 'Accueil' ? 'Note importante (non médicale) :' : 'Important Notice:')}
+                        </strong>
+                        {pData.disclaimer}
+                      </div>
+                    ) : (
+                      <div className="p-4 rounded-xl bg-[#FAF9F6] border border-[#E3ECE5] text-xs text-[#4D6357]">
+                        <strong className="text-[#1B4332]">{pageT.commitmentLabel} </strong>
+                        {pageT.commitmentDesc.replace('{title}', pData.title)}
+                      </div>
+                    )}
+
+                    {/* Artwork preview for personal development */}
+                    {id === 'personal-development' && (
+                      <div className="rounded-2xl overflow-hidden shadow-sm border border-[#E3ECE5] max-w-sm bg-[#0d1f18]">
+                        <img
+                          src="/images/personal-coaching.png"
+                          alt={pData.title}
+                          className="w-full h-auto object-cover"
+                        />
+                      </div>
+                    )}
 
                     <div className="pt-2">
                       <button
