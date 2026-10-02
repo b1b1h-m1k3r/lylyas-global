@@ -62,7 +62,7 @@ export const translations = {
         title: "Personal Development & Lifestyle Coaching",
         desc: "Non-medical personal development and lifestyle coaching focused on personal growth, goals, mindset, and lifestyle improvement.",
       },
-      disclaimerNote: "Our personal development and lifestyle coaching services are non-medical and are not intended to diagnose, treat, or prevent any medical or psychological condition.",
+      disclaimerNote: "Non-medical notice: Our personal development and lifestyle coaching services are non-medical and are not intended to diagnose, treat, or prevent any medical or psychological condition.",
     },
     values: {
       eyebrow: "WHY LYLYAS GLOBAL",
@@ -257,7 +257,7 @@ export const translations = {
           tagline: "More Clarity • More Balance • A Brighter You",
           badge: "NON-MEDICAL SERVICES",
           subheading: "Mindset • Growth • Balance • Freedom",
-          disclaimer: "Our personal development and lifestyle coaching services are non-medical and are not intended to diagnose, treat, or prevent any medical or psychological condition.",
+          disclaimer: "Non-medical notice: Our personal development and lifestyle coaching services are non-medical and are not intended to diagnose, treat, or prevent any medical or psychological condition.",
           items: [
             { name: "Personal Growth & Goal Architecture", desc: "Actionable frameworks for personal growth, daily discipline, milestone tracking, and accountability." },
             { name: "Mindset & Mental Clarity Coaching", desc: "Overcoming limiting patterns, fostering empowering perspectives, and strengthening daily mental clarity." },
@@ -377,7 +377,7 @@ export const translations = {
         title: "Développement Personnel & Coaching de Vie",
         desc: "Développement personnel et coaching de vie non médical axés sur l'épanouissement personnel, les objectifs, l'état d'esprit et l'amélioration du mode de vie.",
       },
-      disclaimerNote: "Nos services de développement personnel et de coaching de vie sont non médicaux et ne visent pas à diagnostiquer, traiter ou prévenir une quelconque condition médicale ou psychologique.",
+      disclaimerNote: "Avis non médical : Nos services de développement personnel et de coaching de vie sont non médicaux et ne visent pas à diagnostiquer, traiter ou prévenir une quelconque condition médicale ou psychologique.",
     },
     values: {
       eyebrow: "POURQUOI LYLYAS GLOBAL",
@@ -572,7 +572,7 @@ export const translations = {
           tagline: "Plus de Clarté • Plus d'Équilibre • Un Vous Épanoui",
           badge: "SERVICES NON MÉDICAUX",
           subheading: "État d'esprit • Croissance • Équilibre • Liberté",
-          disclaimer: "Nos services de développement personnel et de coaching de vie sont non médicaux et ne visent pas à diagnostiquer, traiter ou prévenir une quelconque condition médicale ou psychologique.",
+          disclaimer: "Avis non médical : Nos services de développement personnel et de coaching de vie sont non médicaux et ne visent pas à diagnostiquer, traiter ou prévenir une quelconque condition médicale ou psychologique.",
           items: [
             { name: "Croissance Personnelle & Atteinte d'Objectifs", desc: "Cadres pratiques de développement personnel, discipline quotidienne, suivi d'étapes et responsabilisation." },
             { name: "État d'Esprit & Clarté Mentale", desc: "Dépassement des schémas limitants, perspectives constructives et renforcement de la clarté d'esprit au quotidien." },
@@ -692,7 +692,7 @@ export const translations = {
         title: "التطوير الشخصي والتدريب على نمط الحياة",
         desc: "تطوير شخصي وتدريب على نمط الحياة غير طبي يركز على النمو الذاتي، وتحقيق الأهداف، وتطوير التفكير، وتحسين أسلوب الحياة.",
       },
-      disclaimerNote: "خدمات التطوير الشخصي والتدريب على نمط الحياة لدينا غير طبية ولا تهدف إلى تشخيص أو علاج أو الوقاية من أي حالة طبية أو نفسية.",
+      disclaimerNote: "إشعار غير طبي: خدمات التطوير الشخصي والتدريب على نمط الحياة لدينا غير طبية ولا تهدف إلى تشخيص أو علاج أو الوقاية من أي حالة طبية أو نفسية.",
     },
     values: {
       eyebrow: "لماذا ليلياس جلوبال",
@@ -887,7 +887,7 @@ export const translations = {
           tagline: "وضوح أكثر • توازن أفضل • نسخة أفضل منك",
           badge: "خدمات غير طبية",
           subheading: "العقلية • النمو • التوازن • الحرية",
-          disclaimer: "خدمات التطوير الشخصي والتدريب على نمط الحياة لدينا غير طبية ولا تهدف إلى تشخيص أو علاج أو الوقاية من أي حالة طبية أو نفسية.",
+          disclaimer: "إشعار غير طبي: خدمات التطوير الشخصي والتدريب على نمط الحياة لدينا غير طبية ولا تهدف إلى تشخيص أو علاج أو الوقاية من أي حالة طبية أو نفسية.",
           items: [
             { name: "النمو الشخصي وتحديد الأهداف", desc: "أطر عملية للنمو الشخصي، وبناء الانضباط اليومي، وتتبع مراحل الإنجاز وتحمل المسؤولية الذاتية." },
             { name: "تطوير العقلية والوضوح الذهني", desc: "تجاوز الأنماط الفكرية المقيدة، وبناء وجهات نظر إيجابية وممكنة، وتعزيز الصفاء والوضوح الذهني اليومي." },

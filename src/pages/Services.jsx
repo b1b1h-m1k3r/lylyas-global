@@ -145,20 +145,11 @@ export default function Services() {
                       {pData.subtitle}
                     </p>
 
-                    {/* Disclaimer note for coaching or standard commitment box */}
-                    {pData.disclaimer ? (
-                      <div className="p-4 rounded-2xl bg-[#FEF3C7]/40 border border-[#FDE68A] text-xs text-[#92400E] leading-relaxed">
-                        <strong className="font-semibold block mb-1">
-                          {isRTL ? 'إشعار غير طبي مهم:' : (t.nav.home === 'Accueil' ? 'Note importante (non médicale) :' : 'Important Notice:')}
-                        </strong>
-                        {pData.disclaimer}
-                      </div>
-                    ) : (
-                      <div className="p-4 rounded-xl bg-[#FAF9F6] border border-[#E3ECE5] text-xs text-[#4D6357]">
-                        <strong className="text-[#1B4332]">{pageT.commitmentLabel} </strong>
-                        {pageT.commitmentDesc.replace('{title}', pData.title)}
-                      </div>
-                    )}
+                    {/* Standard commitment box for all pillars */}
+                    <div className="p-4 rounded-xl bg-[#FAF9F6] border border-[#E3ECE5] text-xs text-[#4D6357]">
+                      <strong className="text-[#1B4332]">{pageT.commitmentLabel} </strong>
+                      {pageT.commitmentDesc.replace('{title}', pData.title)}
+                    </div>
 
                     {/* Artwork preview for personal development */}
                     {id === 'personal-development' && (
@@ -180,6 +171,15 @@ export default function Services() {
                         <ArrowRight className="w-3.5 h-3.5 text-[#C4A882] transition-transform group-hover:translate-x-1 rtl-flip" />
                       </button>
                     </div>
+
+                    {/* Fine print non-medical disclaimer underline */}
+                    {pData.disclaimer && (
+                      <div className="pt-3 border-t border-[#E3ECE5]">
+                        <p className="text-[11px] text-[#8A9E93] font-light leading-relaxed">
+                          * {pData.disclaimer}
+                        </p>
+                      </div>
+                    )}
                   </div>
 
                   {/* Sub-Services Checklist */}

@@ -361,14 +361,6 @@ export default function Home() {
                   {t.whatWeDo.coaching.desc}
                 </p>
 
-                {/* Mandatory Non-Medical Disclaimer Note */}
-                <div className="p-4 rounded-2xl bg-[#FEF3C7]/40 border border-[#FDE68A] text-xs text-[#92400E] leading-relaxed">
-                  <strong className="font-semibold block mb-0.5">
-                    {isRTL ? 'إشعار غير طبي مهم:' : (t.nav.home === 'Accueil' ? 'Note importante (non médicale) :' : 'Important Notice:')}
-                  </strong>
-                  {t.whatWeDo.disclaimerNote}
-                </div>
-
                 <div className="pt-2">
                   <Link
                     to="/services#personal-development"
@@ -377,6 +369,13 @@ export default function Home() {
                     <span>{t.whatWeDo.learnMore}</span>
                     <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1 rtl-flip" />
                   </Link>
+                </div>
+
+                {/* Fine print non-medical disclaimer underline */}
+                <div className="pt-3 border-t border-[#E3ECE5]">
+                  <p className="text-[11px] text-[#8A9E93] font-light leading-relaxed">
+                    * {t.whatWeDo.disclaimerNote}
+                  </p>
                 </div>
               </div>
 
